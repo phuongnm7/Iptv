@@ -1,0 +1,40 @@
+#EXTM3U
+
+# ====== NGUỒN BÓNG ĐÁ (gốc GitHub) ======
+#EXTINF:-1 group-title="BongDa",Nguồn bóng đá tổng hợp
+https://raw.githubusercontent.com/t23-02/bongda/refs/heads/main/bongda.m3u
+
+
+# ====== THAPCAM (LIVE) ======
+#EXTINF:-1 group-title="Thapcam",UFC Fight Night: Burns vs Malott
+https://cdn-hls.phogatv8.com/live/69e3ec6e137e2_148/index.m3u8
+
+#EXTINF:-1 group-title="Thapcam",New York Knicks vs Atlanta Hawks
+https://cdn-hls.phogatv8.com/live/69e402bc51dda_742/index.m3u8
+
+#EXTINF:-1 group-title="Thapcam",Cruz Azul vs Club Tijuana
+https://cdn-hls.phogatv8.com/live/69e40a27137e2_32/index.m3u8
+
+#EXTINF:-1 group-title="Thapcam",Aguada Santeros vs Capitanes de Arecibo
+https://live.alilicloud.com/live/862d944140634880bbfbc7a8d7918f23/playlist.m3u8
+
+#EXTINF:-1 group-title="Thapcam",Baamon cattle Herder vs Manati
+https://live.alilicloud.com/live/1bb70f1e899cacd2c92b1512cb124746/playlist.m3u8
+
+#EXTINF:-1 group-title="Thapcam",Independiente de Oliva vs Quimsa
+https://live.alilicloud.com/live/626c3413de82db8649181117cf63bf21/playlist.m3u8
+
+#EXTINF:-1 group-title="Thapcam",Gigantes Carolina vs Criollos de Caguas
+https://live.alilicloud.com/live/1d46ae97fcb33bb0e6d79ee4dd7b03d2/playlist.m3u8
+
+#EXTINF:-1 group-title="Thapcam",Los Angeles Lakers vs Houston Rockets
+https://cdn-tvc.taoxanh.biz/live-dev/live-dev/video/adaptive/2026/03/playlist.m3u8
+
+#EXTINF:-1 group-title="Thapcam",FC Dallas vs Los Angeles Galaxy
+https://cdn-hls.phogatv8.com/live/69e41c32137e2_181/index.m3u8
+
+#EXTINF:-1 group-title="Thapcam",Vivo Franca vs Boca Juniors
+https://live.alilicloud.com/live/26bc7bac1929f7a1d9131976f751b1db/playlist.m3u8
+
+#EXTINF:-1 group-title="Thapcam",Monterrey vs Pachuca
+https://cdn-hls.phogatv8.com/live/69e4255c137e2_11/index.m3u8
