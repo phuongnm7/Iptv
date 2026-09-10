@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="update_info" tvg-name="(396) Updated 16:59 10/09/2026" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/ENC/refs/heads/main/logoupdate.png" group-title="👌 UPDATE",(396) Updated 16:59 10/09/2026
+#EXTINF:-1 tvg-id="update_info" tvg-name="(421) Updated 18:50 10/09/2026" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/ENC/refs/heads/main/logoupdate.png" group-title="👌 UPDATE",(421) Updated 18:50 10/09/2026
 #KODIPROP:inputstream.adaptive.manifest_type=mp4
 https://github.com/hieu-TQS/ENC/raw/refs/heads/main/intro.mp4
 #EXTINF:-1 tvg-id="vtv1hd" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/LOGO-IPTV/main/1.png" group-title="VTV" catchup="default" catchup-days="2" catchup-source="https://livevlisctcdnw.seenow.vn/livesnv2/VTV1_HD/manifest.mpd?startTime=${start}&stopTime=${stop}" tvg-shift="0",VTV1
@@ -1455,72 +1455,184 @@ https://dbrb49pjoymg4.cloudfront.net/10001/99991627/hls/billi.m3u8?ads.xumo_chan
 #EXTINF:-1 tvg-id="ESPN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="🌟SPORTS XTREAM🌟", ESPN
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://181.78.197.59:8000/play/a07z/index.m3u8
-#EXTINF:-1 tvg-name="MediaCorp CH-01" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?ImageId='16311229'" group-title="🇸🇬 Asian Games",MediaCorp CH-01
+#EXTINF:-1 tvg-name="Asian Games CH01" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16311229'&Width=300" group-title="🇸🇬 Mediacorp",Asian Games CH-01
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1a83ee088e5343d095ac7f4d8d3cd945:dc0da9fdfae3c69c322b67db207a87a1
 https://tglmp03.akamaized.net/out/v1/7cfe6d15c127407588568af9f4574a21/manifest.mpd
-#EXTINF:-1 tvg-name="MediaCorp CH-02" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?ImageId='16321650'" group-title="🇸🇬 Asian Games",MediaCorp CH-02
+#EXTINF:-1 tvg-name="Asian Games CH02" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16321650'&Width=300" group-title="🇸🇬 Mediacorp",Asian Games CH-02
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6c9c38c2de3f41afa12f9872ad6c3903:d6f5a6750b32d2addec0c98fff14de9d
-https://d2q3zea8ff7bj4.cloudfront.net/out/v1/5fa3fdc8720b4317b14df756e81b78c1/manifest.mpd
-#EXTINF:-1 tvg-name="MediaCorp CH-03" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?ImageId='16322171'&Format='png'&Width=300" group-title="🇸🇬 Asian Games",MediaCorp CH-03
+https://tglmp01.akamaized.net/out/v1/5fa3fdc8720b4317b14df756e81b78c1/manifest.mpd
+#EXTINF:-1 tvg-name="Asian Games CH03" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16322171'&Width=300" group-title="🇸🇬 Mediacorp",Asian Games CH-03
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3da197d13d754505887a04aedd17922e:0028b47ca60594991910c6f6048c51a0
 https://tglmp02.akamaized.net/out/v1/2f39077458694b06bdfb15ef16f55d45/manifest.mpd
-#EXTINF:-1 tvg-name="MediaCorp CH-04" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?ImageId='16322250'&Format='png'&Width=300" group-title="🇸🇬 Asian Games",MediaCorp CH-04
+#EXTINF:-1 tvg-name="Asian Games CH04" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16322250'&Width=300" group-title="🇸🇬 Mediacorp",Asian Games CH-04
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ea1f7f86732d47e897e38c3168851569:55b7ed4cc25fa476f6682c447af128d5
 https://tglmp04.akamaized.net/out/v1/4604623e7ff4462a962275664ccd8ee5/manifest.mpd
-#EXTINF:-1 tvg-name="MediaCorp CH-05" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?ImageId='16322288'&Format='png'&Width=300" group-title="🇸🇬 Asian Games",MediaCorp CH-05
+#EXTINF:-1 tvg-name="Asian Games CH05" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16322288'&Width=300" group-title="🇸🇬 Mediacorp",Asian Games CH-05
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=93dccb38f8c84d448d5a7422eb44462b:af8f1c6acedc34551a82f3bb49adfdea
 https://tglmp03.akamaized.net/out/v1/926637c1aba44cffa74adc74bf786816/manifest.mpd
-#EXTINF:-1 tvg-name="MediaCorp CH-06" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?ImageId='16322298'&Format='png'&Width=300" group-title="🇸🇬 Asian Games",MediaCorp CH-06
+#EXTINF:-1 tvg-name="Asian Games CH06" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16322298'&Width=300" group-title="🇸🇬 Mediacorp",Asian Games CH-06
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f33acf338ec946fd921a85f870636399:a6c1a2e81fe941a9e2efd2bcad0d1532
 https://tglmp01.akamaized.net/out/v1/d43dbc5da1334ec088ed9eb5796eee7c/manifest.mpd
+#EXTINF:-1 tvg-name="Channel 5" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5714350'&Width=300" group-title="🇸🇬 Mediacorp",Channel 5 HD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9c7b6aaca62d4dc59567656b371eaa21:253951f121461cbb6b8aac526438b368
+https://tglmp02.akamaized.net/out/v1/8e5c0396bfbc4a668fac323649dc6aa1/manifest.mpd
+#EXTINF:-1 tvg-name="Channel 8" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5714373'&Width=300" group-title="🇸🇬 Mediacorp",Channel 8 HD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6b1efb9b83f94e589f2be1c27482672b:74c937b533a2ba10e51b90abe159af7b
+https://tglmp01.akamaized.net/out/v1/41d401729c5d4ce3b15eb7db9147d7bc/manifest.mpd
+#EXTINF:-1 tvg-name="Channel U" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5714386'&Width=300" group-title="🇸🇬 Mediacorp",Channel U HD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5729b2b5324c4031aa619d00ee9e5612:6b347db25682e0545a9239ee45dcbb66
+https://tglmp04.akamaized.net/out/v1/884798cc688345d780dc58e4eb56d726/manifest.mpd
+#EXTINF:-1 tvg-name="CNA" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5714413'&Width=300" group-title="🇸🇬 Mediacorp",CNA (Channel NewsAsia)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://tglmp03.akamaized.net/out/v1/06ccf186db3d403f86fed12b370c4179/manifest.mpd
+#EXTINF:-1 tvg-name="Suria" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5714398'&Width=300" group-title="🇸🇬 Mediacorp",Suria HD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c56491afffb64c4281f1752b84d314a9:8bc20a580a2bbe98055440e12de6809a
+https://tglmp02.akamaized.net/out/v1/5835d4c667194033a4230db17cf390fa/manifest.mpd
+#EXTINF:-1 tvg-name="Vasantham" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5714408'&Width=300" group-title="🇸🇬 Mediacorp",Vasantham HD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7c9082552ffa4a87947af9dd4210a5ad:139079e69feb564bfa7283cc1c3cd215
+https://tglmp01.akamaized.net/out/v1/c48d1a7fbf964a6babe98743cb91424a/manifest.mpd
+#EXTINF:-1 tvg-name="LIVE 1" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5714418'&Width=300" group-title="🇸🇬 Mediacorp",Mediacorp LIVE 1
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://tglmp04.akamaized.net/out/v1/898b1cbac7c747e3b1f3deb460e9b67e/manifest.mpd
+#EXTINF:-1 tvg-name="SPL01" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5714423'&Width=300" group-title="🇸🇬 Mediacorp",SPL01 (Singapore Premier League)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f5158194cc4044e699d0df01772f2212:072e611a383a2d1e3d4d8ea19e016a71
+https://csm-e-mediacorp-eb.tls1.yospace.com/csm/extlive/mediacorpprd01,mlive3-dash.mpd?yo.lb=700&yo.hb=6000&yo.d.ut=no&yo.av=3&yo.lpa=true&yo.cps=b.mw.d.s.40.20.s.r&yo.up=https://tglmp04.akamaized.net
+#EXTINF:-1 tvg-name="W-Sport" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='11003664'&Width=300" group-title="🇸🇬 Mediacorp",W-Sport
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1cd8fe6aed3a4d7bb0cf1121711e4bec:43abba438be98af3fee9ad8c9c0dfefb
+https://csm-e-mediacorp-eb.tls1.yospace.com/csm/extlive/mediacorpprd01,wsport-dash.mpd?yo.lb=700&yo.hb=6000&yo.d.ut=no&yo.av=3&yo.lpa=true&yo.cps=b.mw.d.s.40.20.s.r&yo.up=https://tglmp02.akamaized.net
+#EXTINF:-1 tvg-name="FIFA+" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='11003666'&Width=300" group-title="🇸🇬 Mediacorp",FIFA+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://tglmp03.akamaized.net/out/v1/c8e964618dbd41b38ae487760387af24/manifest.mpd
+#EXTINF:-1 tvg-name="TRACE Sport Stars" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='11003716'&Width=300" group-title="🇸🇬 Mediacorp",TRACE Sport Stars
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://tglmp01.akamaized.net/out/v1/7b64773a43184fbc9c4c1f83193db178/manifest.mpd
+#EXTINF:-1 tvg-name="MasterChef" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='14330138'&Width=300" group-title="🇸🇬 Mediacorp",MasterChef
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://tglmp03.akamaized.net/out/v1/5623928a97774b698b3404a843a827d6/manifest.mpd
+#EXTINF:-1 tvg-name="Deal or No Deal" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='12046422'&Width=300" group-title="🇸🇬 Mediacorp",Deal or No Deal
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://csm-e-mediacorp-eb.tls1.yospace.com/csm/extlive/mediacorpprd01,fast-dealornodeal-dash.mpd?yo.lb=1700&yo.hb=6000&yo.d.ut=no&yo.av=3&yo.lpa=true&yo.cps=b.mw.d.s.40.20.s.r&yo.up=https://tglmp01.akamaized.net
+#EXTINF:-1 tvg-name="Fear Factor" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='12046428'&Width=300" group-title="🇸🇬 Mediacorp",Fear Factor
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://tglmp04.akamaized.net/out/v1/692b0d40df6549be8158350dc8a8a120/manifest.mpd
+#EXTINF:-1 tvg-name="River Monsters" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='11516084'&Width=300" group-title="🇸🇬 Mediacorp",River Monsters
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://tglmp02.akamaized.net/out/v1/bfc935c481794151afce58d9f764627e/manifest.mpd
+#EXTINF:-1 tvg-name="Action Hollywood" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='11003714'&Width=300" group-title="🇸🇬 Mediacorp",Action Hollywood
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://tglmp04.akamaized.net/out/v1/6757703a338e4a11812c1dc3cdd43546/manifest.mpd
+#EXTINF:-1 tvg-name="Filem Mantap" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='15729737'&Width=300" group-title="🇸🇬 Mediacorp",Filem Mantap
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://tglmp01.akamaized.net/out/v1/35baec6f2f1f47f89dde431d388d91ee/manifest.mpd
+#EXTINF:-1 tvg-name="Drama Hebat" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='15729732'&Width=300" group-title="🇸🇬 Mediacorp",Drama Hebat
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://tglmp02.akamaized.net/out/v1/f8119e31a0804f178a7d1f566d16600a/manifest.mpd
+#EXTINF:-1 tvg-name="oktolidays" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9463950'&Width=300" group-title="🇸🇬 Mediacorp",oktolidays
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=612eb711dfb444f7a194c5e20d7f7048:b6226449b9ed5066542e6d6ad5ecb346
+https://tglmp03.akamaized.net/out/v1/be732843b7d24bada23e13810282e55f/manifest.mpd
+#EXTINF:-1 tvg-name="Kartoon Channel!" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='11003720'&Width=300" group-title="🇸🇬 Mediacorp",Kartoon Channel!
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://tglmp01.akamaized.net/out/v1/b8676da58b8d4a7a9a961358906e43bb/manifest.mpd
+#EXTINF:-1 tvg-name="TG Junior" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='11003722'&Width=300" group-title="🇸🇬 Mediacorp",TG Junior
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://tglmp03.akamaized.net/out/v1/a3992c3d704443c991a8586e01a4cc1c/manifest.mpd
+#EXTINF:-1 tvg-name="That's Rock" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='15104450'&Width=300" group-title="🇸🇬 Mediacorp",That's Rock
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://tglmp01.akamaized.net/out/v1/6dd50c19c7fc4875a9e76739750112a3/manifest.mpd
+#EXTINF:-1 tvg-name="That's 80s" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='15104446'&Width=300" group-title="🇸🇬 Mediacorp",That's 80s
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://tglmp02.akamaized.net/out/v1/14873c294e324266884858b6ed436380/manifest.mpd
+#EXTINF:-1 tvg-name="That's 70s" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='15104448'&Width=300" group-title="🇸🇬 Mediacorp",That's 70s
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://tglmp02.akamaized.net/out/v1/d2156f18b3c34252b14c044ec9ca8f38/manifest.mpd
 #EXTINF:-1 tvg-id="onsportsplus" group-title="VTVcab" tvg-logo="https://assets-vtvcab.gviet.vn/images/hq/posters/onsportscongmoi1.jpg", ON SPORTS+ 
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sex/cleankey.php?id=tv360183&token=98b686ba8c65005af1fb96e9671934f3
-https://tv.vietanhtv.top/tv360/tv360.php?id=183&expires=1789120779&token=1e8c212c52d0cc702b1231be3df0a37c
+https://tv.vietanhtv.top/tv360/tv360.php?id=183&expires=1789127458&token=846201b5a744894f21786cd3528117e9
 #EXTINF:-1 tvg-id="onfootball" group-title="VTVcab" tvg-logo="https://assets-vtvcab.gviet.vn/images/hq/posters/_ootball_-_opyright_by_cab_logo_202212.jpg", ON FOOTBALL
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sex/cleankey.php?id=tv360174&token=98b686ba8c65005af1fb96e9671934f3
-https://tv.vietanhtv.top/tv360/tv360.php?id=174&expires=1789120779&token=3b13d6ad16781f05696ec3304116f360
+https://tv.vietanhtv.top/tv360/tv360.php?id=174&expires=1789127458&token=2ed6391d92edbb503799308e5b644806
 #EXTINF:-1 tvg-id="onsportsnews" group-title="VTVcab" tvg-logo="https://assets-vtvcab.gviet.vn/images/v2/channel/20220613/2022061306/Logo_ONSPORTSNEWS_150x904_1675158858.webp", ON SPORTS NEWS 
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sex/cleankey.php?id=tv360170&token=98b686ba8c65005af1fb96e9671934f3
-https://tv.vietanhtv.top/tv360/tv360.php?id=170&expires=1789120779&token=f107833311375a94c2614bd637c1863a
+https://tv.vietanhtv.top/tv360/tv360.php?id=170&expires=1789127458&token=a54a2d3f8e34a8ff8729a10c4f3881d2
 #EXTINF:-1 tvg-id="ongolf" group-title="VTVcab" tvg-logo="https://assets-vtvcab.gviet.vn/images/v2/channel/20220613/2022061306/Logo_ONGOLF_150x903_1675158871.webp", ON GOLF 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tv.vietanhtv.top/tv360/tv360.php?id=169&expires=1789120779&token=8ed2150a6354d0bf997359237c4715e5
+https://tv.vietanhtv.top/tv360/tv360.php?id=169&expires=1789127458&token=10d35c0718e027f4c78aff2cdbfa60ee
 #EXTINF:-1 tvg-id="hitv" group-title="Địa Phương" tvg-logo="https://freem3u.xyz/static/images/hanoicab/hitv.png", HiTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tv.vietanhtv.top/tv360/tv360.php?id=32&expires=1789120779&token=76356903a94777065c7e8cb666d7cb1f
+https://tv.vietanhtv.top/tv360/tv360.php?id=32&expires=1789127458&token=3baa720f1fea754b9e4a2bc09cefcf35
 #EXTINF:-1 tvg-id="youtv" group-title="Địa Phương" tvg-logo="https://freem3u.xyz/static/images/hanoicab/youtv.png", You TV 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tv.vietanhtv.top/tv360/tv360.php?id=31&expires=1789120779&token=d565ab075708bedf46f6ffb4aa971ad3
+https://tv.vietanhtv.top/tv360/tv360.php?id=31&expires=1789127458&token=6acbdeb65d614d88872654cf4a843214
 #EXTINF:-1 group-title="Sự Kiện VTVPrime" tvg-logo="https://vtvprime.vn/sideLogoBig.png", VTVPrime 1
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -1595,3 +1707,5 @@ https://livevliatmcdw.seenow.vn/live/data8/SKSS1/Live_DASHDRM/SKSS1.mpd
 https://livevliatmcdw.seenow.vn/live/data8/SKSS2/Live_DASHDRM/SKSS2.mpd
 #EXTINF:-1 group-title="Sự Kiện FPT PLAY" tvg-logo="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/09/09/slide-thumb_1788937323607.jpg", Sự Kiện 3
 https://vips-livecdn.fptplay.net/live/media/su-kien-03/hls_avc_v6/index.m3u8
+#EXTINF:-1 group-title="Sự Kiện FPT PLAY" tvg-logo="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/09/10/thumbnail-live_1789028787563.jpg", Sự Kiện 1
+https://vips-livecdn.fptplay.net/live/media/su-kien-01/hls_avc_v6/index.m3u8
