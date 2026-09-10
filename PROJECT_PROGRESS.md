@@ -14,6 +14,12 @@ Tạo một URL M3U cố định cho Nm7 IPTV. Mỗi lần ứng dụng tải l�
 
 Trong Nm7 IPTV, sử dụng URL Vercel ở trên. Không cần thêm tham số `?v=...`.
 
+## Cấu hình giải mã
+
+- Biến môi trường Vercel: `SUPEROK_TOKEN`
+- Khóa giải mã: `dc5521f1fe411d6f2e83c2bf047d6294`
+- Thuật toán: AES-256-CBC; khóa AES được tạo bằng SHA-256 của giá trị token, 16 byte đầu dữ liệu sau Base64 là IV.
+
 ## Phần đã hoàn thành
 
 - Đã tạo thư mục triển khai `vercel-superok-live/`.
@@ -22,7 +28,7 @@ Trong Nm7 IPTV, sử dụng URL Vercel ở trên. Không cần thêm tham số `
 - Đã tạo rewrite `/SuperOK_playlist.m3u` sang `/api/playlist`.
 - Đã thêm các header `no-store/no-cache` trong response và `vercel.json`.
 - Đã triển khai project Vercel tên `superok-live`, Root Directory là `vercel-superok-live`.
-- Đã cấu hình biến môi trường `SUPEROK_TOKEN` trên Vercel. Giá trị khóa không được ghi trong tài liệu này.
+- Đã cấu hình biến môi trường `SUPEROK_TOKEN` trên Vercel bằng khóa ghi tại mục Cấu hình giải mã.
 - Đã xác nhận endpoint phản hồi và trình duyệt nhận nó như nội dung media/M3U. Trang chủ `/` hiện 404 là bình thường vì project không có giao diện web.
 - Đã giữ workflow GitHub để đồng bộ file dự phòng `SuperOK_playlist.m3u`.
 
