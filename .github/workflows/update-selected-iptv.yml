@@ -6,7 +6,7 @@ on:
       - 'merge_selected_playlists.py'
       - '.github/workflows/update-selected-iptv.yml'
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 permissions:
