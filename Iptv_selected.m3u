@@ -1153,15 +1153,6 @@ https://vmttv.dpdns.org/tv360/?id=tv360-15
 #EXTINF:-1 group-title="Sự Kiện TV360" tvg-logo="https://img-zlr1.tv360.vn/image1/2025/09/17/17/175810574912/a5f8181388ab_640_360.png", TV360 Promo
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://freem3u.xyz/api/live/play.m3u8?vid=9904
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/sevilla.png" group-title="Giờ Vàng TV" , 🟢 02:00 12/09 ⚽ Sevilla vs Valencia (Mason) [hls]
-https://eqr2hdarxfliv.vcdn.cloud/1789137839_hd/1789137839_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Slovakia.svg?utm_source=vi.wikipedia.org&utm_campaign=index&utm_content=original" group-title="Giờ Vàng TV" , 🟢 02:00 12/09 🏐 Slovakia vs Slovenia (Sún) [hls]
-https://eqr2hdarxfliv.vcdn.cloud/1789138436_hd/1789138436_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/tO5cePjl-2DqYxEbl.png" group-title="Giờ Vàng TV" , 🟢 02:00 12/09 🥎 Alexander Zverev vs Karen Khachanov (Ben) [hls]
-https://eqr2hdarxfliv.vcdn.cloud/1789138591_hd/1789138591_hd@720p.m3u8
-
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/A3X3wNil-AJjcvBgm.png" group-title="Giờ Vàng TV" , 🟢 06:00 12/09 🥎 Frances Tiafoe vs Ben Shelton (Mù) [hls]
 https://eqr2hdarxfliv.vcdn.cloud/1789138848_hd/1789138848_hd@720p.m3u8
 
@@ -1170,6 +1161,9 @@ https://eqr2hdarxfliv.vcdn.cloud/1789138990_hd/1789138990_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/3ZzeHGeahHzcx1nnzkf_4w_96x96.png" group-title="Giờ Vàng TV" , 🟢 06:10 12/09 ⚾ Miami Marlins vs Los Angeles Dodgers (Cận) [hls]
 https://eqr2hdarxfliv.vcdn.cloud/1789139052_hd/1789139052_hd@720p.m3u8
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/coritiba-pr.png" group-title="Giờ Vàng TV" , 🟢 07:00 12/09 ⚽ Coritiba (PR) vs Atletico Paranaense (Ngọng) [hls]
+https://eqr2hdarxfliv.vcdn.cloud/1789169310_hd/1789169310_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/lam-dong.png" group-title="Giờ Vàng TV" , 15:30 12/09 ⚽ Lâm Đồng FC vs TP Hồ Chí Minh (blv-minh) [hls]
 https://freem3u.xyz/static/no-signal/low.m3u8
@@ -1189,13 +1183,10 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/UesjQkZA-t6Z2pYxB.png" group-title="Giờ Vàng TV" , 17:00 12/09 ⚽ Daejeon Citizen vs Pohang Steelers (blv Mù) [hls]
 https://freem3u.xyz/static/no-signal/low.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/coritiba-pr.png" group-title="Giờ Vàng TV" , 07:00 12/09 ⚽ Coritiba (PR) vs Atletico Paranaense (blv-mat) [hls]
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/necaxa.png" group-title="Giờ Vàng TV" , 🟡 08:00 12/09 ⚽ Necaxa vs Puebla (blv-beo) [hls]
 https://freem3u.xyz/static/no-signal/low.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/necaxa.png" group-title="Giờ Vàng TV" , 08:00 12/09 ⚽ Necaxa vs Puebla (blv-beo) [hls]
-https://freem3u.xyz/static/no-signal/low.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/xjrSUIEG-251yRjVj.png" group-title="Giờ Vàng TV" , 08:00 12/09 🏀 Chinese Taipei vs Iran (blv-vit) [hls]
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/xjrSUIEG-251yRjVj.png" group-title="Giờ Vàng TV" , 🟡 08:00 12/09 🏀 Chinese Taipei vs Iran (blv-vit) [hls]
 https://freem3u.xyz/static/no-signal/low.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/new-mexico-united.png" group-title="Giờ Vàng TV" , 08:30 12/09 ⚽ New Mexico United vs Indy Eleven (blv-minh) [hls]
@@ -1207,16 +1198,13 @@ https://freem3u.xyz/static/no-signal/low.m3u8
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/faj1OHdM-0nhPzxiE.png" group-title="Giờ Vàng TV" , 09:15 12/09 ⚾ San Francisco Giants vs San Diego Padres (blv-ngu) [hls]
 https://freem3u.xyz/static/no-signal/low.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/cf-atlante.png" group-title="Giờ Vàng TV" , 10:00 12/09 ⚽ CF Atlante vs Pachuca (blv-ngong) [hls]
-https://freem3u.xyz/static/no-signal/low.m3u8
-
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/club-tijuana.png" group-title="Giờ Vàng TV" , 10:00 12/09 ⚽ Club Tijuana vs Queretaro FC (blv-beo) [hls]
 https://freem3u.xyz/static/no-signal/low.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/h4RlwZcM-W4DreWqd.png" group-title="Giờ Vàng TV" , 10:00 12/09 🏸 ZHOU Qihao vs Tomokazu HARIMOTO (blv-18) [hls]
 https://freem3u.xyz/static/no-signal/low.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/vky4LWkl-UPMdbcD9.png" group-title="Giờ Vàng TV" , 11:00 12/09 🏀 https://static.flashscore.com/res/image/data/4nL6jkg5-2cyWyYGn.png vs Qatar (blv-cay) [hls]
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/vky4LWkl-UPMdbcD9.png" group-title="Giờ Vàng TV" , 11:00 12/09 🏀 Qatar vs Jordan (blv-cay) [hls]
 https://freem3u.xyz/static/no-signal/low.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/pKkqJ4Wg-bB59SVBr.png" group-title="Giờ Vàng TV" , 12:00 12/09 🎮 HLE vs T1 (blv-vit) [hls]
@@ -1238,6 +1226,16 @@ https://freem3u.xyz/static/no-signal/low.m3u8
  
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/z8yomo4hj31q0j6/image/small" group-title="Xôi Lạc Z TV" , 🟢 07:30 12/09 ⚽ Boca Juniors vs Central Cordoba SDE (JEAN) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.felnorastreamvault.com/live/channel7.flv
+
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/z8yomo4hj31q0j6/image/small" group-title="Xôi Lạc Z TV" , 🟢 07:30 12/09 ⚽ Boca Juniors vs Central Cordoba SDE (HD JEAN) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.pro2cdnlive.com/live/channel-7.flv
+
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/8y39mp1h8xnmojx/image/small" group-title="Xôi Lạc Z TV" , 🟢 05:15 12/09 ⚽ Defensa Y Justicia vs Gimnasia Mendoza (LOGAN) 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
@@ -1246,47 +1244,77 @@ https://live2.felnorastreamvault.com/live/channel23.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/8y39mp1h8xnmojx/image/small" group-title="Xôi Lạc Z TV" , 🟢 05:15 12/09 ⚽ Defensa Y Justicia vs Gimnasia Mendoza (HD LOGAN) 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.pro2cdnlive.com/live/channel-23.flv
+https://live2.domaincdn.cc/livecdn/channel-23.flv?auth_key=3000001789172179-0-0-9d02a1e51f40c548289992c74a6f3b57
 
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/2y8m4vfgnooml07/image/small" group-title="Xôi Lạc Z TV" , 🟢 02:00 12/09 🥎 Alexander Zverev vs Karen Khachanov (LUCAS) 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.felnorastreamvault.com/live/channel31.flv
-
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/2y8m4vfgnooml07/image/small" group-title="Xôi Lạc Z TV" , 🟢 02:00 12/09 🥎 Alexander Zverev vs Karen Khachanov (HD LUCAS) 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-31.flv?auth_key=3000001789164992-0-0-49be24b33ff70d006a2b1f7d224b575f
-
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h89g0q86p/image/small" group-title="Xôi Lạc Z TV" , 🟡 06:15 12/09 ⚽ CD Jaguares vs Fortaleza F.C (POLO) 
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h89g0q86p/image/small" group-title="Xôi Lạc Z TV" , 🟢 06:15 12/09 ⚽ CD Jaguares vs Fortaleza F.C (POLO) 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
 https://live2.felnorastreamvault.com/live/channel10.flv
 
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h89g0q86p/image/small" group-title="Xôi Lạc Z TV" , 🟡 06:15 12/09 ⚽ CD Jaguares vs Fortaleza F.C (HD POLO) 
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h89g0q86p/image/small" group-title="Xôi Lạc Z TV" , 🟢 06:15 12/09 ⚽ CD Jaguares vs Fortaleza F.C (HD POLO) 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001789165002-0-0-b8c327d980256873fcc58ea961f763c2
+https://live2.domaincdn.cc/livecdn/channel-10.flv?auth_key=3000001789172189-0-0-764a8e2d8e6b8b35be9ae2e08270d753
 
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/9vjxm8ghoenr6od/image/small" group-title="Xôi Lạc Z TV" , 07:00 12/09 ⚽ Coritiba vs Atl. Paranaense (XMEN) 
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/9vjxm8ghoenr6od/image/small" group-title="Xôi Lạc Z TV" , 🟢 07:00 12/09 ⚽ Coritiba vs Atl. Paranaense (XMEN) 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
 https://live2.felnorastreamvault.com/live/channel13.flv
 
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/9vjxm8ghoenr6od/image/small" group-title="Xôi Lạc Z TV" , 07:00 12/09 ⚽ Coritiba vs Atl. Paranaense (HD XMEN) 
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/9vjxm8ghoenr6od/image/small" group-title="Xôi Lạc Z TV" , 🟢 07:00 12/09 ⚽ Coritiba vs Atl. Paranaense (HD XMEN) 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001789165008-0-0-f17a2dfb1ad57a828cf1f8fc5debd1d8
+https://live2.domaincdn.cc/livecdn/channel-13.flv?auth_key=3000001789172195-0-0-132dd7d9f849c545c45b46c8cfb48157
 
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/l965mk8txz4m1ge/image/small" group-title="Xôi Lạc Z TV" , 08:00 12/09 🏀 Đài Loan vs Iran (TOMMY) 
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/318q6jf4xxwro9j/image/small" group-title="Xôi Lạc Z TV" , 🟢 06:00 12/09 🥎 Frances Tiafoe vs Ben Shelton (VIC) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.felnorastreamvault.com/live/channel32.flv
+
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/318q6jf4xxwro9j/image/small" group-title="Xôi Lạc Z TV" , 🟢 06:00 12/09 🥎 Frances Tiafoe vs Ben Shelton (HD VIC) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001789172202-0-0-fd80b9f5f2687ce8ce96bf82ef8e66c1
+
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8d52q86p/image/small" group-title="Xôi Lạc Z TV" , 🟡 08:00 12/09 ⚽ Necaxa vs Puebla (HIRO) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.felnorastreamvault.com/live/channel14.flv
+
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8d52q86p/image/small" group-title="Xôi Lạc Z TV" , 🟡 08:00 12/09 ⚽ Necaxa vs Puebla (HD HIRO) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.domaincdn.cc/livecdn/channel-14.flv?auth_key=3000001789172208-0-0-6ad8bc525dcbb208958a0a9fc9482987
+
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlh9poxryk0/image/small" group-title="Xôi Lạc Z TV" , 🟡 08:00 12/09 ⚽ Nữ Cruz Azul vs Nữ Unam Pumas (TONI) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.felnorastreamvault.com/live/channel9.flv
+
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlh9poxryk0/image/small" group-title="Xôi Lạc Z TV" , 🟡 08:00 12/09 ⚽ Nữ Cruz Azul vs Nữ Unam Pumas (HD TONI) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.domaincdn.cc/livecdn/channel-9.flv?auth_key=3000001789172213-0-0-9d62dec7c7148990dc188d063b129918
+
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8j4oq86p/image/small" group-title="Xôi Lạc Z TV" , 🟡 08:00 12/09 ⚽ Correcaminos de la U.A.T. vs Cancun FC (OLER) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.felnorastreamvault.com/live/channel28.flv
+
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8j4oq86p/image/small" group-title="Xôi Lạc Z TV" , 🟡 08:00 12/09 ⚽ Correcaminos de la U.A.T. vs Cancun FC (HD OLER) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.domaincdn.cc/livecdn/channel-28.flv?auth_key=3000001789172219-0-0-1f8661a58bf637d00bc1775b4a32dbd0
+
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/l965mk8txz4m1ge/image/small" group-title="Xôi Lạc Z TV" , 🟡 08:00 12/09 🏀 Đài Loan vs Iran (TOMMY) 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
 https://live2.felnorastreamvault.com/live/channel29.flv
 
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/l965mk8txz4m1ge/image/small" group-title="Xôi Lạc Z TV" , 08:00 12/09 🏀 Đài Loan vs Iran (HD TOMMY) 
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/l965mk8txz4m1ge/image/small" group-title="Xôi Lạc Z TV" , 🟡 08:00 12/09 🏀 Đài Loan vs Iran (HD TOMMY) 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001789165015-0-0-1acd4e94088bc174f48b7f82344d4c36
+https://live2.domaincdn.cc/livecdn/channel-29.flv?auth_key=3000001789172224-0-0-de32ecac732e438c68d76a41fa4e8173
 
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/318q6nt0lypmo9j/image/small" group-title="Xôi Lạc Z TV" , 09:00 12/09 🏀 Lobos de Puebla vs Freseros de Irapuato (ALAN) 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
@@ -1296,17 +1324,17 @@ https://live2.felnorastreamvault.com/live/channel25.flv
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/318q6nt0lypmo9j/image/small" group-title="Xôi Lạc Z TV" , 09:00 12/09 🏀 Lobos de Puebla vs Freseros de Irapuato (HD ALAN) 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001789165020-0-0-165ef1b5a695ccfb678379d4da5be0fb
+https://live2.domaincdn.cc/livecdn/channel-25.flv?auth_key=3000001789172231-0-0-73b837fe963867e5d1b1924c6522ea87
 
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/9vjxm8xt6poq6od/image/small" group-title="Xôi Lạc Z TV" , 11:00 12/09 🏀 Qatar vs Jordan (STEP) 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.pro2cdnlive.com/live/channel26.flv
+https://live2.felnorastreamvault.com/live/channel26.flv
 
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/9vjxm8xt6poq6od/image/small" group-title="Xôi Lạc Z TV" , 11:00 12/09 🏀 Qatar vs Jordan (HD STEP) 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.pro2cdnlive.com/live/channel-26.flv
+https://live2.domaincdn.cc/livecdn/channel-26.flv?auth_key=3000001789172236-0-0-37cde06335fde15159760a7f50ce61b6
 
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/p3glrwyt87yqdyj/image/small" group-title="Xôi Lạc Z TV" , 14:00 12/09 🏀 Bahrain vs Trung Quốc (TOMMY) 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
@@ -1387,16 +1415,6 @@ https://live2.pro2cdnlive.com/live/channel29.flv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
 https://live2.pro2cdnlive.com/live/channel-29.flv
-
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/318q6jf4xxwro9j/image/small" group-title="Xôi Lạc Z TV" , 🟡 06:00 12/09 🥎 Frances Tiafoe vs Ben Shelton (VIC) 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.felnorastreamvault.com/live/channel32.flv
-
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/318q6jf4xxwro9j/image/small" group-title="Xôi Lạc Z TV" , 🟡 06:00 12/09 🥎 Frances Tiafoe vs Ben Shelton (HD VIC) 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.domaincdn.cc/livecdn/channel-32.flv?auth_key=3000001789165042-0-0-fd19d6e534f05b1a2f82493297b09826
 
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/8yomojf0njgq0j6/image/small" group-title="Xôi Lạc Z TV" , 03:00 13/09 🥎 Aryna Sabalenka vs Elena Rybakina (LUCAS) 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
@@ -1482,16 +1500,16 @@ https://live2.pro2cdnlive.com/live/channel-30.flv
  
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/dadc7fc58b2f470a8986ee1bee0cccbe.png" group-title="Gà Vàng 33 TV" , 07:30 12/09 ⚽ Boca Juniors vs CA Central Cordoba SDE (Gà Siêu Tồ) [flv]
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/dadc7fc58b2f470a8986ee1bee0cccbe.png" group-title="Gà Vàng 33 TV" , 🟢 07:30 12/09 ⚽ Boca Juniors vs CA Central Cordoba SDE (Gà Siêu Tồ) [flv]
 https://live2.zktsva.app/live/796315.flv
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/dadc7fc58b2f470a8986ee1bee0cccbe.png" group-title="Gà Vàng 33 TV" , 07:30 12/09 ⚽ Boca Juniors vs CA Central Cordoba SDE (Gà Siêu Tồ) [hls]
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/dadc7fc58b2f470a8986ee1bee0cccbe.png" group-title="Gà Vàng 33 TV" , 🟢 07:30 12/09 ⚽ Boca Juniors vs CA Central Cordoba SDE (Gà Siêu Tồ) [hls]
 https://live2.zktsva.app/live/796315.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/05321a8272ff8e7ff2eb7eae2e0b72a6.png" group-title="Gà Vàng 33 TV" , 08:00 12/09 ⚽ Necaxa vs Puebla (Gà Siêu Kiêu) [flv]
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/05321a8272ff8e7ff2eb7eae2e0b72a6.png" group-title="Gà Vàng 33 TV" , 🟡 08:00 12/09 ⚽ Necaxa vs Puebla (Gà Siêu Kiêu) [flv]
 https://live2.zktsva.app/live/741294.flv
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/05321a8272ff8e7ff2eb7eae2e0b72a6.png" group-title="Gà Vàng 33 TV" , 08:00 12/09 ⚽ Necaxa vs Puebla (Gà Siêu Kiêu) [hls]
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/05321a8272ff8e7ff2eb7eae2e0b72a6.png" group-title="Gà Vàng 33 TV" , 🟡 08:00 12/09 ⚽ Necaxa vs Puebla (Gà Siêu Kiêu) [hls]
 https://live2.zktsva.app/live/741294.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/ea3dc231c5b640b286b5c609b415f8e1.png" group-title="Gà Vàng 33 TV" , 10:00 12/09 ⚽ Atlante FC vs Pachuca (Gà Siêu Son) [flv]
@@ -1523,6 +1541,34 @@ https://live2.zktsva.app/live/301238.flv
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/c81d5ff7a33a4f6a9312a8703f619352.png" group-title="Gà Vàng 33 TV" , 17:00 12/09 ⚽ Sanfrecce Hiroshima vs Cerezo Osaka (Gà Siêu Ngố) [hls]
 https://live2.zktsva.app/live/301238.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/8663a7bedcf20394242d069637e67219.png" group-title="Gà Vàng 33 TV" , 18:30 12/09 ⚽ West Bromwich Albion vs Queens Park Rangers (Gà Siêu Gáy) [flv]
+https://live2.zktsva.app/live/294335.flv
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/8663a7bedcf20394242d069637e67219.png" group-title="Gà Vàng 33 TV" , 18:30 12/09 ⚽ West Bromwich Albion vs Queens Park Rangers (Gà Siêu Gáy) [hls]
+https://live2.zktsva.app/live/294335.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/7146224d9ef4e5d2eb712b4e71bdfaa4.png" group-title="Gà Vàng 33 TV" , 19:15 12/09 ⚽ Hanoi FC vs Song Lam Nghe An (Gà Siêu Tồ) [flv]
+https://live2.zktsva.app/live/796315.flv
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/7146224d9ef4e5d2eb712b4e71bdfaa4.png" group-title="Gà Vàng 33 TV" , 19:15 12/09 ⚽ Hanoi FC vs Song Lam Nghe An (Gà Siêu Tồ) [hls]
+https://live2.zktsva.app/live/796315.m3u8
+
+ 
+ 
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/05321a8272ff8e7ff2eb7eae2e0b72a6.png" group-title="Gà Vàng TV" , 🟡 08:00 12/09 ⚽ Necaxa vs Puebla (Kayti) [hls]
+https://playback.livetl001.com/live/69b8e6f43bcf2231c35d5144.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/05321a8272ff8e7ff2eb7eae2e0b72a6.png" group-title="Gà Vàng TV" , 🟡 08:00 12/09 ⚽ Necaxa vs Puebla (Kayti) [flv]
+https://playback.livetl001.com/live/69b8e6f43bcf2231c35d5144.flv
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/6090f28bfc40d2169607b23256e5a151.png" group-title="Gà Vàng TV" , 10:10 12/09 ⚽ Club Tijuana vs Queretaro FC (Siêu Quậy) [hls]
+https://playback.livetl001.com/live/6a2a59b347bbddd62a8dc4e4.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/6090f28bfc40d2169607b23256e5a151.png" group-title="Gà Vàng TV" , 10:10 12/09 ⚽ Club Tijuana vs Queretaro FC (Siêu Quậy) [flv]
+https://playback.livetl001.com/live/6a2a59b347bbddd62a8dc4e4.flv
 
  
  
@@ -1838,31 +1884,31 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150155.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1020754.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="EN - ASTON VILLA VS NOTTINGHAM FOREST 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - ASTON VILLA VS NOTTINGHAM FOREST 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100811.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="EN - AFC BOURNEMOUTH VS BRENTFORD 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - AFC BOURNEMOUTH VS BRENTFORD 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100810.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="EN - CHELSEA VS HULL CITY 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - CHELSEA VS HULL CITY 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015554.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="EN - CRYSTAL PALACE VS IPSWICH TOWN 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - CRYSTAL PALACE VS IPSWICH TOWN 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015553.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="EN - LIVERPOOL VS FULHAM 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - LIVERPOOL VS FULHAM 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015552.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="EN - TOTTENHAM HOTSPUR VS EVERTON 17:30 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - TOTTENHAM HOTSPUR VS EVERTON 17:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015551.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="EN - SUNDERLAND VS ARSENAL 20:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - SUNDERLAND VS ARSENAL 20:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015550.ts
 
@@ -1882,31 +1928,31 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015547.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1020753.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="FR - ASTON VILLA VS NOTTINGHAM FOREST 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - ASTON VILLA VS NOTTINGHAM FOREST 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100813.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="FR - AFC BOURNEMOUTH VS BRENTFORD 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - AFC BOURNEMOUTH VS BRENTFORD 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100812.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="FR - CHELSEA VS HULL CITY 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - CHELSEA VS HULL CITY 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015546.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="FR - CRYSTAL PALACE VS IPSWICH TOWN 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - CRYSTAL PALACE VS IPSWICH TOWN 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015545.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="FR - LIVERPOOL VS FULHAM 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - LIVERPOOL VS FULHAM 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015544.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="FR - TOTTENHAM HOTSPUR VS EVERTON 17:30 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - TOTTENHAM HOTSPUR VS EVERTON 17:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015543.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="FR - SUNDERLAND VS ARSENAL 20:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - SUNDERLAND VS ARSENAL 20:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015542.ts
 
@@ -1926,31 +1972,31 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015539.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1020752.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="AR - ASTON VILLA VS NOTTINGHAM FOREST 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - ASTON VILLA VS NOTTINGHAM FOREST 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100815.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="AR - AFC BOURNEMOUTH VS BRENTFORD 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - AFC BOURNEMOUTH VS BRENTFORD 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100814.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="AR - CHELSEA VS HULL CITY 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - CHELSEA VS HULL CITY 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015562.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="AR - CRYSTAL PALACE VS IPSWICH TOWN 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - CRYSTAL PALACE VS IPSWICH TOWN 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015561.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="AR - LIVERPOOL VS FULHAM 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - LIVERPOOL VS FULHAM 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015560.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="AR - TOTTENHAM HOTSPUR VS EVERTON 17:30 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - TOTTENHAM HOTSPUR VS EVERTON 17:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015559.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="AR - SUNDERLAND VS ARSENAL 20:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - SUNDERLAND VS ARSENAL 20:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015558.ts
 
@@ -1970,31 +2016,31 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015555.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1024114.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="ALB - ASTON VILLA VS NOTTINGHAM FOREST 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - ASTON VILLA VS NOTTINGHAM FOREST 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1388024.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="ALB - AFC BOURNEMOUTH VS BRENTFORD 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - AFC BOURNEMOUTH VS BRENTFORD 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1388023.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="ALB - CHELSEA VS HULL CITY 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - CHELSEA VS HULL CITY 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1225673.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="ALB - CRYSTAL PALACE VS IPSWICH TOWN 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - CRYSTAL PALACE VS IPSWICH TOWN 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1182487.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="ALB - LIVERPOOL VS FULHAM 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - LIVERPOOL VS FULHAM 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1039828.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="ALB - TOTTENHAM HOTSPUR VS EVERTON 17:30 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - TOTTENHAM HOTSPUR VS EVERTON 17:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1039819.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="ALB - SUNDERLAND VS ARSENAL 20:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - SUNDERLAND VS ARSENAL 20:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1024335.ts
 
@@ -2014,19 +2060,19 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1024113.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015817.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - SEVILLA - VALENCIA 20:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - SEVILLA - VALENCIA 20:00 CET
+#EXTINF:-1 tvg-id="" tvg-name="FR - RACING SANTANDER VS DEPORTIVO ALAVÉS 13:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - RACING SANTANDER VS DEPORTIVO ALAVÉS 13:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1117244.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="FR - OSASUNA VS ESPANYOL 15:15 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - OSASUNA VS ESPANYOL 15:15 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100783.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="FR - ATHLETIC CLUB VS ELCHE 17:30 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - ATHLETIC CLUB VS ELCHE 17:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100776.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="FR - REAL MADRID VS RAYO VALLECANO 20:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - REAL MADRID VS RAYO VALLECANO 20:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100775.ts
 
@@ -2058,19 +2104,19 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015821.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015824.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - SEVILLA - VALENCIA 20:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",EN - SEVILLA - VALENCIA 20:00 CET
+#EXTINF:-1 tvg-id="" tvg-name="EN - RACING SANTANDER VS DEPORTIVO ALAVÉS 13:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",EN - RACING SANTANDER VS DEPORTIVO ALAVÉS 13:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1117243.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",EN - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="EN - OSASUNA VS ESPANYOL 15:15 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",EN - OSASUNA VS ESPANYOL 15:15 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100784.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",EN - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="EN - ATHLETIC CLUB VS ELCHE 17:30 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",EN - ATHLETIC CLUB VS ELCHE 17:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100774.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",EN - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="EN - REAL MADRID VS RAYO VALLECANO 20:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",EN - REAL MADRID VS RAYO VALLECANO 20:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100772.ts
 
@@ -2106,19 +2152,19 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1001780.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015831.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - SEVILLA - VALENCIA 20:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",AR - SEVILLA - VALENCIA 20:00 CET
+#EXTINF:-1 tvg-id="" tvg-name="AR - RACING SANTANDER VS DEPORTIVO ALAVÉS 13:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",AR - RACING SANTANDER VS DEPORTIVO ALAVÉS 13:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100782.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",AR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="AR - OSASUNA VS ESPANYOL 15:15 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",AR - OSASUNA VS ESPANYOL 15:15 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100778.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",AR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="AR - ATHLETIC CLUB VS ELCHE 17:30 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",AR - ATHLETIC CLUB VS ELCHE 17:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100777.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",AR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="AR - REAL MADRID VS RAYO VALLECANO 20:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",AR - REAL MADRID VS RAYO VALLECANO 20:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1033758.ts
 
@@ -2150,19 +2196,19 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1001784.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1033317.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ES - SEVILLA - VALENCIA 20:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ES - SEVILLA - VALENCIA 20:00 CET
+#EXTINF:-1 tvg-id="" tvg-name="ES - RACING SANTANDER VS DEPORTIVO ALAVÉS 13:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ES - RACING SANTANDER VS DEPORTIVO ALAVÉS 13:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1117245.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ES - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ES - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="ES - OSASUNA VS ESPANYOL 15:15 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ES - OSASUNA VS ESPANYOL 15:15 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100781.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ES - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ES - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="ES - ATHLETIC CLUB VS ELCHE 17:30 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ES - ATHLETIC CLUB VS ELCHE 17:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100780.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ES - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ES - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="ES - REAL MADRID VS RAYO VALLECANO 20:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ES - REAL MADRID VS RAYO VALLECANO 20:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100779.ts
 
@@ -2194,17 +2240,21 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1028728.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1145824.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ALB - SEVILLA - VALENCIA 20:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ALB - SEVILLA - VALENCIA 20:00 CET
+#EXTINF:-1 tvg-id="" tvg-name="ALB - RACING SANTANDER VS DEPORTIVO ALAVÉS 13:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ALB - RACING SANTANDER VS DEPORTIVO ALAVÉS 13:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1145838.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ALB - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="ALB - OSASUNA VS ESPANYOL 15:15 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ALB - OSASUNA VS ESPANYOL 15:15 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1117242.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ALB - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="ALB - ATHLETIC CLUB VS ELCHE 17:30 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ALB - ATHLETIC CLUB VS ELCHE 17:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1086615.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ALB - REAL MADRID VS RAYO VALLECANO 20:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ALB - REAL MADRID VS RAYO VALLECANO 20:00 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015820.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ALB - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
@@ -2213,10 +2263,6 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015834.ts
 #EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ALB - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015833.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ALB - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015820.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ALB - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
@@ -2238,27 +2284,27 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1001754.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017979.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="DE - UNION BERLIN - SCHALKE 04 19:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - UNION BERLIN - SCHALKE 04 19:30 CET
+#EXTINF:-1 tvg-id="" tvg-name="DE - AUGSBURG VS BAYER LEVERKUSEN 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - AUGSBURG VS BAYER LEVERKUSEN 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100768.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="DE - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="DE - BORUSSIA DORTMUND VS PADERBORN 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - BORUSSIA DORTMUND VS PADERBORN 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100767.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="DE - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="DE - FREIBURG VS BORUSSIA M'GLADBACH 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - FREIBURG VS BORUSSIA M'GLADBACH 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1042307.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="DE - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="DE - HOFFENHEIM VS STUTTGART 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - HOFFENHEIM VS STUTTGART 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017985.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="DE - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="DE - MAINZ 05 VS EINTRACHT FRANKFURT 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - MAINZ 05 VS EINTRACHT FRANKFURT 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017984.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="DE - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="DE - KÖLN VS WERDER BREMEN 17:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - KÖLN VS WERDER BREMEN 17:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017983.ts
 
@@ -2278,27 +2324,27 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017981.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017972.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - UNION BERLIN - SCHALKE 04 19:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - UNION BERLIN - SCHALKE 04 19:30 CET
+#EXTINF:-1 tvg-id="" tvg-name="EN - AUGSBURG VS BAYER LEVERKUSEN 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - AUGSBURG VS BAYER LEVERKUSEN 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100762.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="EN - BORUSSIA DORTMUND VS PADERBORN 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - BORUSSIA DORTMUND VS PADERBORN 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100761.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="EN - FREIBURG VS BORUSSIA M'GLADBACH 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - FREIBURG VS BORUSSIA M'GLADBACH 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1042308.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="EN - HOFFENHEIM VS STUTTGART 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - HOFFENHEIM VS STUTTGART 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017978.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="EN - MAINZ 05 VS EINTRACHT FRANKFURT 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - MAINZ 05 VS EINTRACHT FRANKFURT 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017977.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="EN - KÖLN VS WERDER BREMEN 17:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - KÖLN VS WERDER BREMEN 17:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017976.ts
 
@@ -2318,27 +2364,27 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017974.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017965.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - UNION BERLIN - SCHALKE 04 19:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - UNION BERLIN - SCHALKE 04 19:30 CET
+#EXTINF:-1 tvg-id="" tvg-name="FR - AUGSBURG VS BAYER LEVERKUSEN 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - AUGSBURG VS BAYER LEVERKUSEN 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100764.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="FR - BORUSSIA DORTMUND VS PADERBORN 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - BORUSSIA DORTMUND VS PADERBORN 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100763.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="FR - FREIBURG VS BORUSSIA M'GLADBACH 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - FREIBURG VS BORUSSIA M'GLADBACH 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1067573.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="FR - HOFFENHEIM VS STUTTGART 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - HOFFENHEIM VS STUTTGART 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1029741.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="FR - MAINZ 05 VS EINTRACHT FRANKFURT 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - MAINZ 05 VS EINTRACHT FRANKFURT 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1029740.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="FR - KÖLN VS WERDER BREMEN 17:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - KÖLN VS WERDER BREMEN 17:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1029739.ts
 
@@ -2358,27 +2404,27 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1029737.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1005066.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - UNION BERLIN - SCHALKE 04 19:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - UNION BERLIN - SCHALKE 04 19:30 CET
+#EXTINF:-1 tvg-id="" tvg-name="AR - AUGSBURG VS BAYER LEVERKUSEN 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - AUGSBURG VS BAYER LEVERKUSEN 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100766.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="AR - BORUSSIA DORTMUND VS PADERBORN 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - BORUSSIA DORTMUND VS PADERBORN 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100765.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="AR - FREIBURG VS BORUSSIA M'GLADBACH 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - FREIBURG VS BORUSSIA M'GLADBACH 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1042306.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="AR - HOFFENHEIM VS STUTTGART 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - HOFFENHEIM VS STUTTGART 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1033762.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="AR - MAINZ 05 VS EINTRACHT FRANKFURT 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - MAINZ 05 VS EINTRACHT FRANKFURT 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017971.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="AR - KÖLN VS WERDER BREMEN 17:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - KÖLN VS WERDER BREMEN 17:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017970.ts
 
