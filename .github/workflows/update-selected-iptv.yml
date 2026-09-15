@@ -1,4 +1,4 @@
-name: Update selected IPTV playlist
+name: Update IPTV playlists
 
 on:
   push:
@@ -12,18 +12,39 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-iptv-playlists
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Build playlist
+
+      - name: Download latest SuperOK playlist
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --silent --show-error \
+            --retry 3 --retry-delay 5 \
+            --header 'Cache-Control: no-cache' \
+            --user-agent 'Mozilla/5.0 IPTV-playlist-updater' \
+            'https://superok-live.vercel.app/SuperOK_playlist.m3u?refresh='$(date +%s) \
+            --output SuperOK_playlist.tmp
+          head -n 1 SuperOK_playlist.tmp | grep -q '^#EXTM3U'
+          test "$(wc -c < SuperOK_playlist.tmp)" -gt 100000
+          mv SuperOK_playlist.tmp SuperOK_playlist.m3u
+
+      - name: Build selected playlist
         run: python3 merge_selected_playlists.py
-      - name: Commit playlist
+
+      - name: Commit playlists
+        shell: bash
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add Iptv_selected.m3u
-          git diff --cached --quiet || git commit -m 'Auto-update selected IPTV playlist'
+          git add SuperOK_playlist.m3u Iptv_selected.m3u
+          git diff --cached --quiet || git commit -m 'Auto-update IPTV playlists'
           git push
