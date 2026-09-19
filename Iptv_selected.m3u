@@ -120,9 +120,6 @@ https://sps1.starzplayarabia.com/out/v1/eee188845e9543699fd24e5a9890c6e2/index.m
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ee861edcd99093153a763a94b14c2c5a:ab3991f6a7729ba1ea4bcdba0c1ae6c0
 https://sps2.starzplayarabia.com/out/v1/15e7d1ffb99746dda03f71dbbbc3c08b/index.mpd
-#EXTINF:-1 tvg-id="6a68c751-be66-4fb2-a22c-4101f3330a4c" tvg-name="wedotv Sports" tvg-logo="https://datastore.vr.ctrp.sooka.my/content/images/ad19cdWedo_Sports_IVP_LAND_1280x720.jpg" group-title="🌟SPORTS VIP🌟", Wedotv Sports
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://amg00735-amg00735c45-astrosooka-singapore-7035.playouts.now.amagi.tv/playlist/amg00735-videosolutionsagfast-wedosportsasia-astrosookasingapore/playlist.m3u8
 #EXTINF:-1 tvg-id="STARZPLAY SPORTS 3 MPD" tvg-logo="https://i.imgur.com/N7oSm4d.png" group-title="🌟SPORTS VIP🌟", STARZPLAY SPORTS 3 🇦🇪 UAE MPD
 #EXTVLCOPT:http-user-agent=MacBox/1.0 (Linux; U; Android 9; TV Box)
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -154,7 +151,7 @@ https://dash2.antik.sk/stream/nvidia_eurosport1/playlist_cenc.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-https://dash2.antik.sk/stream/nvidia_eurosport2/playlist_cenc.mpd
+https://dash4.antik.sk/stream/nvidia_eurosport2/playlist_cenc.mpd
 #EXTINF:-1 tvg-id="Premier Sports 1" tvg-logo="https://get.perfecttv.net/logo/premiersports.png" group-title="🌟SPORTS VIP🌟", PREMIER SPORTS 1 MPD
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -273,12 +270,12 @@ https://dash2.antik.sk/stream/hisi_as2/playlist_cbcs.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-https://dash2.antik.sk/stream/nvidia_nova_sport1/playlist_cenc.mpd
+https://dash4.antik.sk/stream/nvidia_nova_sport1/playlist_cenc.mpd
 #EXTINF:-1 tvg-id="Nova Sport 2 (Slovakia)" tvg-logo="https://cmesk-ott-images-svod.ssl.cdn.cra.cz/d0a2a77e-1816-436a-bce7-820098925ff7" group-title="🌟SPORTS VIP🌟", NOVA SPORT 2 🇸🇰 MPD
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd
+https://dash5.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd
 #EXTINF:-1 tvg-id="SpoTV 1 " tvg-logo="https://www.visionplus.id/images/repository/957/49957-SNAPSHOT-l.png" group-title="🌟SPORTS VIP🌟", SPOTV 1 🇵🇭 MPD
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -335,12 +332,6 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8ec2e6248abe2e10e16e439c9b85ffd8:f121b015c2a5197828355fb6a874c297
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/worucjnctz/out/v1/20ac5ecdc9b848dc92e7f1188bdf6ff6/cenc.mpd
-#EXTINF:-1 tvg-id="NU9VE 🇲🇽" tvg-logo="https://i.imgur.com/0FLFINq.png" group-title="🌟SPORTS VIP🌟", NU9VE 🇲🇽 MPD
-#EXTVLCOPT:http-user-agent=MacBox/1.0 (Linux; U; Android 9; TV Box)
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=79737d20a3eaa862f8cb77c61cb3b58c:41df11a0be44fd7272538728cec38bc6
-https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/skz7pgjdyp/out/v1/8e7377f4d3154738b7f48baa996b35a5/cenc.mpd
 #EXTINF:-1 tvg-id="MATCH! PREMIERE 🇷🇺" tvg-logo="https://i.imgur.com/GQPyHYK.png" group-title="🌟SPORTS VIP🌟", MATCH! PREMIERE 🇷🇺 MPD
 #EXTVLCOPT:http-user-agent=MacBox/1.0 (Linux; U; Android 9; TV Box)
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -398,6 +389,14 @@ http://video.beeline.tv/live/d/channel304.isml/manifest-stb.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=eabd2d95c89e42f2b0b0b40ce4179ea0:0e7e35a07e2c12822316c0dc4873903f
 https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tapsports.mpd
+#EXTINF:-1 tvg-id="JOJ SPORT 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/slovakia/joj-sport-sk.png" group-title="🌟SPORTS VIP🌟", JOJ SPORT 1 🇸🇰 MPD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
+#EXTVLCOPT:http-referer=https://webtv.sk/tv/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://drm.antik.sk/widevine/key
+https://dash3.antik.sk/stream/nvidia_joj_sport/playlist_cbcs.mpd
 #EXTINF:-1 tvg-id="JOJ SPORT 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/slovakia/joj-sport-sk.png" group-title="🌟SPORTS VIP🌟", JOJ SPORT 2 🇸🇰 MPD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
 #EXTVLCOPT:http-referrer=https://webtv.sk/tv/
@@ -414,18 +413,6 @@ https://cdn.skygo.mn/live/disk1/MNBSport/DASH-FTA/MNBSport.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=84077d18bcf234a42de3745be106a87f:aee3069c062ec8ee6bfdd32985f287ef
 https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/2jbycgm3g3/out/v1/066dd9325648468c9ecdc8b272370931/cenc.mpd
-#EXTINF:-1 tvg-id="W Network Canada" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7e/W_Network_2002_3D.svg/revision/latest/scale-to-width-down/250?cb=20230828131735" group-title="🌟SPORTS VIP🌟", W NETWORK 🇨🇦 MPD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=2c7ece0bc4b1cdbe78497cb85e4c268e:e7f77a1b82fb8ea8c06e2aa886c521ca
-https://live.corusdigitaldev.com/groupd/live/8cace0db-7887-4cb3-988d-58594cda4697/corus-wnetwork.isml/.mpd
-#EXTINF:-1 tvg-id="CVT NEWS " tvg-logo="https://provider-static.plex.tv/epg/cms/production/0d95aadb-10dc-41d5-a7b5-614f03e88853/CTVNews_Logo_ForDarkBackgrounds_1500x1000.png" group-title="🌟SPORTS VIP🌟", CVT NEWS 🇨🇦 MPD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d185684e2330de5bea436daa094a5e86:014f0116154f5bf0050e03a6b0a23157
-https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd
 #EXTINF:-1 tvg-id="tsn1.ca" tvg-logo="https://mimipipi22.github.io/logo/png/tsn1.png" group-title="🌟SPORTS VIP🌟", TSN1 🇨🇦 MPD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -466,13 +453,13 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fsu3wl2rwb/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd
-#EXTINF:-1 tvg-id="FUBO SPORTS 1" tvg-logo="https://object-streamo.emonaja.com/img/fubosportsnetwork.avif" group-title="🌟SPORTS VIP🌟", FUBO SPORTS 1 🇺🇲 MPD
+#EXTINF:-1 tvg-id="FUBO SPORTS 1" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/44/Fubo_Sports_Network_%282023%29_white_logo.png/revision/latest/scale-to-width-down/250?cb=20251002012423" group-title="🌟SPORTS VIP🌟", FUBO SPORTS 1 🇺🇲 MPD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f
 http://live-pv-ta.amazon.fastly-edge.com/sin-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd
-#EXTINF:-1 tvg-id="FUBO SPORTS 2" tvg-logo="https://object-streamo.emonaja.com/img/fubosportsnetwork.avif" group-title="🌟SPORTS VIP🌟", FUBO SPORTS 2 🇺🇲 MPD
+#EXTINF:-1 tvg-id="FUBO SPORTS 2" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/44/Fubo_Sports_Network_%282023%29_white_logo.png/revision/latest/scale-to-width-down/250?cb=20251002012423" group-title="🌟SPORTS VIP🌟", FUBO SPORTS 2 🇺🇲 MPD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -513,11 +500,6 @@ https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/nl9acyq8n3/out/v1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
 https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd
-#EXTINF:-1 tvg-id="B0HCHF18YZ" tvg-logo="https://images.pluto.tv/channels/65453f30085df200085883d8/colorLogoPNG.png" group-title="🌟SPORTS VIP🌟", ION 🇺🇲 MPD
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=96b08d24b0fa4b65fee721844ee216e0:f22e996f6bd18b571e3f9d25167a0526
-https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/evewsh19eb/out/v1/5ff67c8e84a148ac8407bbf1269b2049/cenc.mpd
 #EXTINF:-1 tvg-id="B0HC54ZDDC" tvg-logo="https://provider-static.plex.tv/epg/cms/production/0b6f4951-d177-464c-aafc-0e35b61b48da/Unbeaten_logo_dark_-_Sam_Neazi.png" group-title="🌟SPORTS VIP🌟", UNBEATEN 🇺🇲 MPD
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -612,26 +594,6 @@ https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/l5r5ycaf8m/out/v1
 #KODIPROP:inputstream.adaptive.license_type=widevine
 #KODIPROP:inputstream.adaptive.license_key=https://drm.antik.sk/widevine/key
 https://dash2.antik.sk/stream/hisi_ams/playlist_cbcs.mpd
-#EXTINF:-1 tvg-id="2DF" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn-EdNL0HK4h1CkQi4LP2EodHM_-DTKYlsxbetpSsI1Q&s=10" group-title="🌟SPORTS VIP🌟", 2DF 🇩🇪 MPD
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=81a05c9af07e15f59dcac568090956f9:d73ce54718de20d57e87d81c95d50b0a
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ge6gonv7cy/out/v1/a2186ce553fb4a08b286aad3237d5328/cenc.mpd
-#EXTINF:-1 tvg-id="Tipik 1 🇧🇪" tvg-logo="https://i.imgur.com/LKLjnrp.png" group-title="🌟SPORTS VIP🌟", TIPIK1 🇧🇪 MPD
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=adca25b8779e4168a0cd710f59f61ccf:be5383ed3cd8079f4ffe78ad067f476a
-https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/.mpd
-#EXTINF:-1 tvg-id="Mediaset 1 Italy" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4b/Logo_tv_tln_mediaset.png/revision/latest?cb=20181024125048" group-title="🌟SPORTS VIP🌟", MEDIASET 1 🇮🇹 MPD
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=00f9f3c0783536b8ee91704e23b78016:bfd04d6f544c9cc4d35cb13ab6778587
-https://live03p-seg.msf.cdn.mediaset.net/live/ch-i1/i1-dash-widevine.isml/manifest.mpd
-#EXTINF:-1 tvg-id="M 6 🇫🇷 MPD" tvg-logo="https://i.imgur.com/7GVp3fW.png" group-title="🌟SPORTS VIP🌟", M 6 🇫🇷 MPD
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=433ffba670963e70857859a9dff4be04:51ede3a821229fe81e71282c8eff80e3
-https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd
 #EXTINF:-1 tvg-id="N Sports" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzkQOePqZ62vY6k-ed4yGCKwr3mqTi5itnRzzZeu6EfQ&s=10" group-title="🌟SPORTS VIP🌟", N SPORTS  MPD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -658,8 +620,56 @@ https://tglmp01.akamaized.net/out/v1/7b64773a43184fbc9c4c1f83193db178/manifest.m
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d384ff1dad2b39899e81b386baa97e02:abf42b268d9ea7775870c77200c51bc6
 https://cdn-seachange-prod-01.vos360.video/Content/DASH/Live/channel(b3278dd9-ffd3-cfcc-f35b-fdbfeb006100)/master.mpd
-#EXTINF:-1 group-title="Sự Kiện FPT PLAY" tvg-logo="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/09/17/18_1789578091407.jpg", Event 1
+#EXTINF:-1 tvg-id="Tv4Futbol" tvg-name="Tv4Futbol" tvg-logo="https://www.sydantenn.se/wp-content/uploads/2024/01/TV4-Fotboll-e1707983639975-400x400.png" group-title="🌟SPORTS VIP🌟",Tv4Futbol 🇸🇪
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a518c629bd683a4eba5f2a793bcb48d6:49642d2151ac6c3f8453bbfc4b3fdfc0
+https://live.streaming.a2d.tv/asset/20465725.isml/dash.mpd
+#EXTINF:-1 tvg-name="TV4 Tennis SE" tvg-logo="https://cdn.livesoccertv.com/images/channels/thumbnails/c-more-tennis.png" group-title="🌟SPORTS VIP🌟",TV4 Tennis 🇸🇪
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"lXsyUI/srxp/hC6dibx1Nw","kid":"vTKtYI6MNTaNuwrL+pTY4A"}],"type":"temporary"}
+https://live.streaming.a2d.tv/asset/20465727.isml/dash.mpd
+#EXTINF:-1 tvg-id="FirstWarriors" tvg-name="First Warriors HD" tvg-logo="http://edge.linknetott.swiftserve.com/STBWEBVIEWADS/urlinfo/ui3/channel_logo_icon/300.png" group-title="🌟SPORTS VIP🌟",FIRST WARRIORS HD
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=77555ed22f924e4b98620319e1de3739:2876649ccd9840346084c565d25f8f6b
+https://atemeshield2-voe.sysln.id/live/eds/FirstWarriorsHD/mediampd/FirstWarriorsHD.mpd
+#EXTINF:-1 tvg-id="SportDigitalFUSSBALLDE" tvg-name="SportDigital FUSSBALL DE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/93/Sportdigital_Fu%C3%9Fball_Logo_2019.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="🌟SPORTS VIP🌟",SportDigital FUSSBALL DE
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
+https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
+#EXTINF:-1 tvg-name="" tvg-logo="https://mimipipi22.github.io/logo/sports/psjtv.jpg" group-title="🌟SPORTS VIP🌟",PSJ TV (cubmu)
+https://cdnjkt913.transvision.co.id:1000/live/master/1/000000008d1b3a72018dbfcd427f46ab/manifest.mpd
+#EXTINF:-1 group-title="🌟SPORTS VIP🌟" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/72/%C4%8CT_sport_logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",CT Sport SLV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referer=https://webtv.sk/tv/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
+https://dash4.antik.sk/stream/nvidia_ct_sport/playlist_cenc.mpd
+#EXTINF:-1 tvg-name="" tvg-logo="https://mimipipi22.github.io/logo/antik/rtvssport.jpg" group-title="🌟SPORTS VIP🌟",RTVS SPORT 🇸🇰
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referer=https://webtv.sk/tv/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://drm.antik.sk/widevine/key
+https://dash5.antik.sk/stream/nvidia_rtvs_sport/playlist_cbcs.mpd
+#EXTINF:-1 group-title="Sự Kiện FPT PLAY" tvg-logo="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/09/17/19_1789578296990.jpg", Event 1
 https://vips-livecdn.fptplay.net/live/media/event-01/hls_avc_v6/index.m3u8
+#EXTINF:-1 group-title="Sự Kiện FPT PLAY" tvg-logo="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/09/18/thumbnail-live-1_1789696154584.jpg", Sự Kiện 5
+https://vips-livecdn.fptplay.net/live/media/su-kien-05/hls_avc_v6/index.m3u8
+#EXTINF:-1 group-title="Sự Kiện FPT PLAY" tvg-logo="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/09/19/19_1789759398420.jpg", Event 5
+https://vips-livecdn.fptplay.net/live/media/event-05/hls_avc_v6/index.m3u8
+#EXTINF:-1 group-title="Sự Kiện FPT PLAY" tvg-logo="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/09/18/thumbnail-live-1_1789696904782.jpg", Event 2
+https://vips-livecdn.fptplay.net/live/media/event-02/hls_avc_v6/index.m3u8
+#EXTINF:-1 group-title="Sự Kiện FPT PLAY" tvg-logo="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/09/18/thumbnail-live_1789697722376.jpg", Sự Kiện 3
+https://vips-livecdn.fptplay.net/live/media/su-kien-03/hls_avc_v6/index.m3u8
 #EXTINF:-1 tvg-id="tv360plus1" group-title="Sự Kiện TV360" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/15/22/1776266760359/ba1ca843cd06_480_270.png", TV360+1
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
