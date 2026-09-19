@@ -7,41 +7,49 @@
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1a83ee088e5343d095ac7f4d8d3cd945:dc0da9fdfae3c69c322b67db207a87a1
 https://tglmp03.akamaized.net/out/v1/7cfe6d15c127407588568af9f4574a21/manifest.mpd
+
 #EXTINF:-1 tvg-id="asiangamesch02" tvg-name="Asian Games CH02" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/Logo/refs/heads/main/AsianGamesCh02.jpg" group-title="🇸🇬 Mediacorp",Asian Games CH-02
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6c9c38c2de3f41afa12f9872ad6c3903:d6f5a6750b32d2addec0c98fff14de9d
 https://tglmp01.akamaized.net/out/v1/5fa3fdc8720b4317b14df756e81b78c1/manifest.mpd
+
 #EXTINF:-1 tvg-id="asiangamesch03" tvg-name="Asian Games CH03" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/Logo/refs/heads/main/AsianGamesCH03.jpg" group-title="🇸🇬 Mediacorp",Asian Games CH-03
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3da197d13d754505887a04aedd17922e:0028b47ca60594991910c6f6048c51a0
 https://tglmp02.akamaized.net/out/v1/2f39077458694b06bdfb15ef16f55d45/manifest.mpd
+
 #EXTINF:-1 tvg-id="asiangamesch04" tvg-name="Asian Games CH04" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/Logo/refs/heads/main/AsianGamesCH04.jpg" group-title="🇸🇬 Mediacorp",Asian Games CH-04
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ea1f7f86732d47e897e38c3168851569:55b7ed4cc25fa476f6682c447af128d5
 https://tglmp04.akamaized.net/out/v1/4604623e7ff4462a962275664ccd8ee5/manifest.mpd
+
 #EXTINF:-1 tvg-id="asiangamesch05" tvg-name="Asian Games CH05" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/Logo/refs/heads/main/AsianGamesCH05.jpg" group-title="🇸🇬 Mediacorp",Asian Games CH-05
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=93dccb38f8c84d448d5a7422eb44462b:af8f1c6acedc34551a82f3bb49adfdea
 https://tglmp03.akamaized.net/out/v1/926637c1aba44cffa74adc74bf786816/manifest.mpd
+
 #EXTINF:-1 tvg-id="asiangamesch06" tvg-name="Asian Games CH06" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/Logo/refs/heads/main/AsianGamesCH06.jpg" group-title="🇸🇬 Mediacorp",Asian Games CH-06
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f33acf338ec946fd921a85f870636399:a6c1a2e81fe941a9e2efd2bcad0d1532
 https://tglmp01.akamaized.net/out/v1/d43dbc5da1334ec088ed9eb5796eee7c/manifest.mpd
+
 #EXTINF:-1 tvg-id="channel5hd" tvg-name="Channel 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Mediacorp_Channel_5_2023.svg/960px-Mediacorp_Channel_5_2023.svg.png" group-title="🇸🇬 Mediacorp", CHANNEL 5 🇸🇬 SG MPD
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9c7b6aaca62d4dc59567656b371eaa21:253951f121461cbb6b8aac526438b368
 https://tglmp02.akamaized.net/out/v1/8e5c0396bfbc4a668fac323649dc6aa1/manifest.mpd
+
+
 #EXTINF:-1 tvg-id="BEIN SPORTS 1 " tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/5exn7j1631279352.png" group-title="🌟SPORTS VIP🌟", BEIN SPORTS 1 🇦🇺 MPD
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -83,18 +91,21 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b253c726c24c7c94a3ddf9b1907e2c76:097963d6ad73c3d712a104981de0ed42
 https://sps1.starzplayarabia.com/out/v1/eee188845e9543699fd24e5a9890c6e2/index.mpd
+
 #EXTINF:-1 tvg-id="STARZPLAY SPORTS 2 MPD" tvg-logo="https://i.imgur.com/N7oSm4d.png" group-title="🌟SPORTS VIP🌟", STARZPLAY SPORTS 2 🇦🇪 UAE MPD
 #EXTVLCOPT:http-user-agent=MacBox/1.0 (Linux; U; Android 9; TV Box)
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ee861edcd99093153a763a94b14c2c5a:ab3991f6a7729ba1ea4bcdba0c1ae6c0
 https://sps2.starzplayarabia.com/out/v1/15e7d1ffb99746dda03f71dbbbc3c08b/index.mpd
+
 #EXTINF:-1 tvg-id="STARZPLAY SPORTS 3 MPD" tvg-logo="https://i.imgur.com/N7oSm4d.png" group-title="🌟SPORTS VIP🌟", STARZPLAY SPORTS 3 🇦🇪 UAE MPD
 #EXTVLCOPT:http-user-agent=MacBox/1.0 (Linux; U; Android 9; TV Box)
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=117c29396ec6fd295880013241a466e1:3dfb883251884e66d784111877c44b13
 https://sps3.starzplayarabia.com/out/v1/95528122fa434bcd948c9ed2e7afabee/index.mpd
+
 #EXTINF:-1 tvg-id="DSPORTS " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/960px-DirecTV_Sports_Latin_America_%282018%29.png" group-title="🌟SPORTS VIP🌟", DSPORTS 🇦🇷 MPD
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -602,6 +613,7 @@ https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 https://cdn.skygo.mn/live/disk1/ONTV/DASH-FTA/ONTV.mpd
+
 https://tglmp01.akamaized.net/out/v1/d43dbc5da1334ec088ed9eb5796eee7c/manifest.mpd
 #EXTINF:-1 tvg-id="SPL01" tvg-logo="https://i.imgur.com/SHKtkbi.png" group-title="🌟SPORTS VIP🌟", SPL01 (Singapore Premier League) 🇸🇬 SG MPD
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -612,15 +624,19 @@ https://csm-e-mediacorp-eb.tls1.yospace.com/csm/extlive/mediacorpprd01,mlive3-da
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 11; M2004J19C Build/RP1A.200720.011)
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://tglmp03.akamaized.net/out/v1/c8e964618dbd41b38ae487760387af24/manifest.mpd
+
 #EXTINF:-1 tvg-name="TRACE Sport Stars" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?ImageId=9358844&EntityId=556888&Width=300&Height=78" group-title="🌟SPORTS VIP🌟",TRACE Sport Stars
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://tglmp01.akamaized.net/out/v1/7b64773a43184fbc9c4c1f83193db178/manifest.mpd
+
 #EXTINF:-1 tvg-id="Zero Sport" tvg-logo="https://i.ibb.co/LzgJ7hzR/KANA-ZERO.jpg" group-title="🌟SPORTS VIP🌟", ZERO SPORT 🇵🇱 POLAND MPD
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d384ff1dad2b39899e81b386baa97e02:abf42b268d9ea7775870c77200c51bc6
 https://cdn-seachange-prod-01.vos360.video/Content/DASH/Live/channel(b3278dd9-ffd3-cfcc-f35b-fdbfeb006100)/master.mpd
+
+
 #EXTINF:-1 tvg-id="tv360plus1" group-title="Sự Kiện TV360" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/15/22/1776266760359/ba1ca843cd06_480_270.png", TV360+1
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -1015,23 +1031,23 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150155.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1020754.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="EN - TOTTENHAM HOTSPUR VS ASTON VILLA 12:30 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - TOTTENHAM HOTSPUR VS ASTON VILLA 12:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100811.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="EN - NEWCASTLE UNITED VS HULL CITY 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - NEWCASTLE UNITED VS HULL CITY 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100810.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="EN - EVERTON VS IPSWICH TOWN 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - EVERTON VS IPSWICH TOWN 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015554.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="EN - BRIGHTON & HOVE ALBION VS ARSENAL 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - BRIGHTON & HOVE ALBION VS ARSENAL 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015553.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="EN - NOTTINGHAM FOREST VS COVENTRY CITY 17:30 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",EN - NOTTINGHAM FOREST VS COVENTRY CITY 17:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015552.ts
 
@@ -1059,23 +1075,23 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015547.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1020753.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="FR - TOTTENHAM HOTSPUR VS ASTON VILLA 12:30 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - TOTTENHAM HOTSPUR VS ASTON VILLA 12:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100813.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="FR - NEWCASTLE UNITED VS HULL CITY 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - NEWCASTLE UNITED VS HULL CITY 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100812.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="FR - EVERTON VS IPSWICH TOWN 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - EVERTON VS IPSWICH TOWN 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015546.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="FR - BRIGHTON & HOVE ALBION VS ARSENAL 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - BRIGHTON & HOVE ALBION VS ARSENAL 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015545.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="FR - NOTTINGHAM FOREST VS COVENTRY CITY 17:30 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",FR - NOTTINGHAM FOREST VS COVENTRY CITY 17:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015544.ts
 
@@ -1103,23 +1119,23 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015539.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1020752.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="AR - TOTTENHAM HOTSPUR VS ASTON VILLA 12:30 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - TOTTENHAM HOTSPUR VS ASTON VILLA 12:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100815.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="AR - NEWCASTLE UNITED VS HULL CITY 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - NEWCASTLE UNITED VS HULL CITY 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100814.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="AR - EVERTON VS IPSWICH TOWN 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - EVERTON VS IPSWICH TOWN 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015562.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="AR - BRIGHTON & HOVE ALBION VS ARSENAL 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - BRIGHTON & HOVE ALBION VS ARSENAL 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015561.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="AR - NOTTINGHAM FOREST VS COVENTRY CITY 17:30 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",AR - NOTTINGHAM FOREST VS COVENTRY CITY 17:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015560.ts
 
@@ -1147,23 +1163,23 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015555.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1024114.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="ALB - TOTTENHAM HOTSPUR VS ASTON VILLA 12:30 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - TOTTENHAM HOTSPUR VS ASTON VILLA 12:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1388024.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="ALB - NEWCASTLE UNITED VS HULL CITY 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - NEWCASTLE UNITED VS HULL CITY 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1388023.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="ALB - EVERTON VS IPSWICH TOWN 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - EVERTON VS IPSWICH TOWN 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1225673.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="ALB - BRIGHTON & HOVE ALBION VS ARSENAL 15:00 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - BRIGHTON & HOVE ALBION VS ARSENAL 15:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1182487.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="ALB - NOTTINGHAM FOREST VS COVENTRY CITY 17:30 CET" tvg-logo="https://go4.pw/59.png" group-title="VIP | PREMIER LEAGUE",ALB - NOTTINGHAM FOREST VS COVENTRY CITY 17:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1039828.ts
 
@@ -1191,29 +1207,29 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1024113.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015817.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - ATLÉTICO MADRID VS OSASUNA 18:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - ATLÉTICO MADRID VS OSASUNA 18:00 CET
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100776.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FR - DEPORTIVO LA CORUÑA VS SEVILLA 18:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - DEPORTIVO LA CORUÑA VS SEVILLA 18:00 CET
+#EXTINF:-1 tvg-id="" tvg-name="FR - OSASUNA - RAYO VALLECANO 13:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - OSASUNA - RAYO VALLECANO 13:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1117244.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - LEVANTE VS ATHLETIC CLUB 20:30 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - LEVANTE VS ATHLETIC CLUB 20:30 CET
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1033738.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FR - BARCELONA VS RACING SANTANDER 20:30 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - BARCELONA VS RACING SANTANDER 20:30 CET
+#EXTINF:-1 tvg-id="" tvg-name="FR - ATHLETIC CLUB - DEPORTIVO ALAVÉS 15:15 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - ATHLETIC CLUB - DEPORTIVO ALAVÉS 15:15 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100783.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - BARCELONA VS RACING SANTANDER 20:30 CET [BK]" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - BARCELONA VS RACING SANTANDER 20:30 CET [BK]
+#EXTINF:-1 tvg-id="" tvg-name="FR - CELTA DE VIGO - RACING SANTANDER 17:30 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - CELTA DE VIGO - RACING SANTANDER 17:30 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100776.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FR - SEVILLA - BARCELONA 20:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - SEVILLA - BARCELONA 20:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100775.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="FR - SEVILLA - BARCELONA 20:00 CET [BK]" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - SEVILLA - BARCELONA 20:00 CET [BK]
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1033737.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - NO MATCH
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1033738.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
@@ -1235,21 +1251,21 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015821.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015824.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - ATLÉTICO MADRID VS OSASUNA 18:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",EN - ATLÉTICO MADRID VS OSASUNA 18:00 CET
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100774.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="EN - DEPORTIVO LA CORUÑA VS SEVILLA 18:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",EN - DEPORTIVO LA CORUÑA VS SEVILLA 18:00 CET
+#EXTINF:-1 tvg-id="" tvg-name="EN - OSASUNA - RAYO VALLECANO 13:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",EN - OSASUNA - RAYO VALLECANO 13:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1117243.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - LEVANTE VS ATHLETIC CLUB 20:30 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",EN - LEVANTE VS ATHLETIC CLUB 20:30 CET
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100772.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="EN - BARCELONA VS RACING SANTANDER 20:30 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",EN - BARCELONA VS RACING SANTANDER 20:30 CET
+#EXTINF:-1 tvg-id="" tvg-name="EN - ATHLETIC CLUB - DEPORTIVO ALAVÉS 15:15 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",EN - ATHLETIC CLUB - DEPORTIVO ALAVÉS 15:15 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100784.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="EN - CELTA DE VIGO - RACING SANTANDER 17:30 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",EN - CELTA DE VIGO - RACING SANTANDER 17:30 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100774.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="EN - SEVILLA - BARCELONA 20:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",EN - SEVILLA - BARCELONA 20:00 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100772.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",EN - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
@@ -1283,21 +1299,21 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1001780.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015831.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - ATLÉTICO MADRID VS OSASUNA 18:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",AR - ATLÉTICO MADRID VS OSASUNA 18:00 CET
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100777.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR - DEPORTIVO LA CORUÑA VS SEVILLA 18:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",AR - DEPORTIVO LA CORUÑA VS SEVILLA 18:00 CET
+#EXTINF:-1 tvg-id="" tvg-name="AR - OSASUNA - RAYO VALLECANO 13:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",AR - OSASUNA - RAYO VALLECANO 13:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100782.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - LEVANTE VS ATHLETIC CLUB 20:30 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",AR - LEVANTE VS ATHLETIC CLUB 20:30 CET
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1033758.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR - BARCELONA VS RACING SANTANDER 20:30 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",AR - BARCELONA VS RACING SANTANDER 20:30 CET
+#EXTINF:-1 tvg-id="" tvg-name="AR - ATHLETIC CLUB - DEPORTIVO ALAVÉS 15:15 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",AR - ATHLETIC CLUB - DEPORTIVO ALAVÉS 15:15 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100778.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR - CELTA DE VIGO - RACING SANTANDER 17:30 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",AR - CELTA DE VIGO - RACING SANTANDER 17:30 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100777.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR - SEVILLA - BARCELONA 20:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",AR - SEVILLA - BARCELONA 20:00 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1033758.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",AR - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
@@ -1327,25 +1343,25 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1001784.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1033317.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ES - ATLÉTICO MADRID VS OSASUNA 18:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ES - ATLÉTICO MADRID VS OSASUNA 18:00 CET
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100780.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ES - DEPORTIVO LA CORUÑA VS SEVILLA 18:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ES - DEPORTIVO LA CORUÑA VS SEVILLA 18:00 CET
+#EXTINF:-1 tvg-id="" tvg-name="ES - OSASUNA - RAYO VALLECANO 13:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ES - OSASUNA - RAYO VALLECANO 13:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1117245.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ES - LEVANTE VS ATHLETIC CLUB 20:30 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ES - LEVANTE VS ATHLETIC CLUB 20:30 CET
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1033785.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ES - BARCELONA VS RACING SANTANDER 20:30 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ES - BARCELONA VS RACING SANTANDER 20:30 CET
+#EXTINF:-1 tvg-id="" tvg-name="ES - ATHLETIC CLUB - DEPORTIVO ALAVÉS 15:15 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ES - ATHLETIC CLUB - DEPORTIVO ALAVÉS 15:15 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100781.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ES - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ES - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="ES - CELTA DE VIGO - RACING SANTANDER 17:30 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ES - CELTA DE VIGO - RACING SANTANDER 17:30 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100780.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ES - SEVILLA - BARCELONA 20:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ES - SEVILLA - BARCELONA 20:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100779.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ES - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ES - NO MATCH
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1033785.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ES - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ES - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
@@ -1371,21 +1387,21 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1028728.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1145824.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ALB - ATLÉTICO MADRID VS OSASUNA 18:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ALB - ATLÉTICO MADRID VS OSASUNA 18:00 CET
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1086615.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ALB - DEPORTIVO LA CORUÑA VS SEVILLA 18:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ALB - DEPORTIVO LA CORUÑA VS SEVILLA 18:00 CET
+#EXTINF:-1 tvg-id="" tvg-name="ALB - OSASUNA - RAYO VALLECANO 13:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ALB - OSASUNA - RAYO VALLECANO 13:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1145838.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ALB - LEVANTE VS ATHLETIC CLUB 20:30 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ALB - LEVANTE VS ATHLETIC CLUB 20:30 CET
+#EXTINF:-1 tvg-id="" tvg-name="ALB - ATHLETIC CLUB - DEPORTIVO ALAVÉS 15:15 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ALB - ATHLETIC CLUB - DEPORTIVO ALAVÉS 15:15 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1117242.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ALB - CELTA DE VIGO - RACING SANTANDER 17:30 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ALB - CELTA DE VIGO - RACING SANTANDER 17:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015834.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ALB - BARCELONA VS RACING SANTANDER 20:30 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ALB - BARCELONA VS RACING SANTANDER 20:30 CET
+#EXTINF:-1 tvg-id="" tvg-name="ALB - SEVILLA - BARCELONA 20:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ALB - SEVILLA - BARCELONA 20:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1117242.ts
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1086615.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ALB - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
@@ -1415,29 +1431,29 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1001754.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017979.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="DE - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="DE - WERDER BREMEN - AUGSBURG 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - WERDER BREMEN - AUGSBURG 14:30 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100768.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="DE - HAMBURGER SV - KÖLN 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - HAMBURGER SV - KÖLN 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100767.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="DE - EINTRACHT FRANKFURT - FREIBURG 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - EINTRACHT FRANKFURT - FREIBURG 14:30 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1042307.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="DE - BORUSSIA M'GLADBACH - MAINZ 05 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - BORUSSIA M'GLADBACH - MAINZ 05 14:30 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017985.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="DE - STUTTGART - BORUSSIA DORTMUND 17:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - STUTTGART - BORUSSIA DORTMUND 17:30 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017984.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="DE - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017983.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="DE - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100768.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="DE - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1042307.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="DE - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017985.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="DE - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017984.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="DE - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",DE - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
@@ -1455,29 +1471,29 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017981.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017972.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="EN - WERDER BREMEN - AUGSBURG 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - WERDER BREMEN - AUGSBURG 14:30 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100762.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="EN - HAMBURGER SV - KÖLN 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - HAMBURGER SV - KÖLN 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100761.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="EN - EINTRACHT FRANKFURT - FREIBURG 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - EINTRACHT FRANKFURT - FREIBURG 14:30 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1042308.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="EN - BORUSSIA M'GLADBACH - MAINZ 05 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - BORUSSIA M'GLADBACH - MAINZ 05 14:30 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017978.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="EN - STUTTGART - BORUSSIA DORTMUND 17:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - STUTTGART - BORUSSIA DORTMUND 17:30 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017977.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017976.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100762.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1042308.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017978.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017977.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",EN - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
@@ -1495,29 +1511,29 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017974.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017965.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="FR - WERDER BREMEN - AUGSBURG 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - WERDER BREMEN - AUGSBURG 14:30 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100764.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FR - HAMBURGER SV - KÖLN 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - HAMBURGER SV - KÖLN 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100763.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FR - EINTRACHT FRANKFURT - FREIBURG 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - EINTRACHT FRANKFURT - FREIBURG 14:30 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1067573.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FR - BORUSSIA M'GLADBACH - MAINZ 05 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - BORUSSIA M'GLADBACH - MAINZ 05 14:30 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1029741.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FR - STUTTGART - BORUSSIA DORTMUND 17:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - STUTTGART - BORUSSIA DORTMUND 17:30 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1029740.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1029739.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100764.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1067573.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1029741.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1029740.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",FR - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
@@ -1535,29 +1551,29 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1029737.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1005066.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - NO MATCH
+#EXTINF:-1 tvg-id="" tvg-name="AR - WERDER BREMEN - AUGSBURG 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - WERDER BREMEN - AUGSBURG 14:30 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100766.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR - HAMBURGER SV - KÖLN 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - HAMBURGER SV - KÖLN 14:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100765.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR - EINTRACHT FRANKFURT - FREIBURG 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - EINTRACHT FRANKFURT - FREIBURG 14:30 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1042306.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR - BORUSSIA M'GLADBACH - MAINZ 05 14:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - BORUSSIA M'GLADBACH - MAINZ 05 14:30 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1033762.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR - STUTTGART - BORUSSIA DORTMUND 17:30 CET" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - STUTTGART - BORUSSIA DORTMUND 17:30 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017971.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017970.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100766.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1042306.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1033762.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1017971.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/56.png" group-title="VIP | BUNDESLIGA",AR - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
