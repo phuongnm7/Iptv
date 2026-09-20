@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://tv.ngoibut-cachmang.workers.dev/epgc.xml"
-#EXTINF:-1 tvg-id="update_info" tvg-name="(472) Updated 08:30 20/09/2026" tvg-logo="https://raw.githubusercontent.com/shoshjvn/ENC/refs/heads/main/update.png" group-title="👌 UPDATE",(472) Updated 08:30 20/09/2026
+#EXTINF:-1 tvg-id="update_info" tvg-name="(434) Updated 13:50 20/09/2026" tvg-logo="https://raw.githubusercontent.com/shoshjvn/ENC/refs/heads/main/update.png" group-title="👌 UPDATE",(434) Updated 13:50 20/09/2026
 #KODIPROP:inputstream.adaptive.manifest_type=mp4
 https://raw.githubusercontent.com/shoshjvn/ENC/refs/heads/main/update.mp4
 #EXTINF:-1 tvg-id="vtv1hd" tvg-logo="https://raw.githubusercontent.com/hieu-TQS/LOGO-IPTV/main/1.png" group-title="🌟VTV & VTVCab🌟" catchup="default" catchup-days="2" catchup-source="https://livevlisctcdnw.seenow.vn/livesnv2/VTV1_HD/manifest.mpd?startTime=${start}&stopTime=${stop}" tvg-shift="0",VTV1
@@ -173,24 +173,24 @@ https://livevlisctcdnw.seenow.vn/livesnv2/THETHAO_HD/manifest.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sex/cleankey.php?id=tv360183&token=07dabbb379f038e0dac8b6a5d96e40ac
-https://tv.vietanhtv.top/tv360/tv360.php?id=183&expires=1789954227&token=6421471e659296105954f27ed26f897c
+https://tv.vietanhtv.top/tv360/tv360.php?id=183&expires=1789973426&token=a9d8683747150e0138239cf8e32a0e03
 #EXTINF:-1 tvg-id="onfootball" group-title="🌟VTV & VTVCab🌟" tvg-logo="https://assets-vtvcab.gviet.vn/images/hq/posters/_ootball_-_opyright_by_cab_logo_202212.jpg", ON FOOTBALL
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sex/cleankey.php?id=tv360174&token=07dabbb379f038e0dac8b6a5d96e40ac
-https://tv.vietanhtv.top/tv360/tv360.php?id=174&expires=1789954227&token=c6aff92acd3b9b23e7b1abc9af521913
+https://tv.vietanhtv.top/tv360/tv360.php?id=174&expires=1789973426&token=4164cbc28ff478534aaf6db2b5ac293d
 #EXTINF:-1 tvg-id="onsportsnews" group-title="🌟VTV & VTVCab🌟" tvg-logo="https://assets-vtvcab.gviet.vn/images/v2/channel/20220613/2022061306/Logo_ONSPORTSNEWS_150x904_1675158858.webp", ON SPORTS NEWS 
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sex/cleankey.php?id=tv360170&token=07dabbb379f038e0dac8b6a5d96e40ac
-https://tv.vietanhtv.top/tv360/tv360.php?id=170&expires=1789954227&token=35d97b738cd7123f690db4e4960c15ed
+https://tv.vietanhtv.top/tv360/tv360.php?id=170&expires=1789973426&token=89773f139d9cf490997b4c5bd6bf6274
 #EXTINF:-1 tvg-id="ongolf" group-title="🌟VTV & VTVCab🌟" tvg-logo="https://assets-vtvcab.gviet.vn/images/v2/channel/20220613/2022061306/Logo_ONGOLF_150x903_1675158871.webp", ON GOLF 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tv.vietanhtv.top/tv360/tv360.php?id=169&expires=1789954227&token=6922b8c1faa4458005b454d795e2fa5f
+https://tv.vietanhtv.top/tv360/tv360.php?id=169&expires=1789973426&token=962ebfc7d1e60c9d1841eec1e9af3471
 #EXTINF:-1 tvg-id="htv1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/ca/HTV1_logo.webp?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="🌟HTV🌟", HTV1
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -1817,177 +1817,27 @@ https://dbrb49pjoymg4.cloudfront.net/10001/99991627/hls/billi.m3u8?ads.xumo_chan
 #EXTINF:-1 tvg-id="ESPN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="🌟SPORTS XTREAM🌟", ESPN
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://181.78.197.59:8000/play/a07z/index.m3u8
-#EXTINF:-1 group-title="Sự Kiện FPT PLAY" tvg-logo="https://images.fptplay53.net/media/home_event/OTT_ECS/2026/09/17/slide-thumb_1789634483507.jpg", Sự Kiện 3
-https://vips-livecdn.fptplay.net/live/media/su-kien-03/hls_avc_v6/index.m3u8
-#EXTINF:-1 tvg-id="65146" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Kansas%20City%20Royals%20vs%20Pittsburgh%20Pirates.jpg" group-title="⚽ LIVE SPORTS", Kansas City Royals vs Pittsburgh Pirates - MLB
+#EXTINF:-1 tvg-id="65168" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Taranaki%20vs%20Southland.jpg" group-title="⚽ LIVE SPORTS", Taranaki vs Southland - NPC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-iptv.rumsport10.live%2Flive_abr%2F55841%2F720p%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953446-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-51a584ec0d759013db5259610428755c
-#EXTINF:-1 tvg-id="65145" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Chicago%20Cubs%20vs%20Cincinnati%20Reds.jpg" group-title="⚽ LIVE SPORTS", Chicago Cubs vs Cincinnati Reds - MLB
+https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-iptv.rumsport10.live%2Flive_abr%2F143072%2F720p%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789973245-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-deb3d87032b337ab6a8581ecd41c1522
+#EXTINF:-1 tvg-id="72535" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/India%20vs.%20Bangladesh.jpg" group-title="⚽ LIVE SPORTS", India vs. Bangladesh - Women's Asian Games 2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-iptv.rumsport10.live%2Flive_abr%2F55840%2F720p%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953447-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-367751f3b99739eda29d241acd704bfd
-#EXTINF:-1 tvg-id="65156" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/CRYPTO.COM%20UFC%20331%20PRELIMS.jpg" group-title="⚽ LIVE SPORTS", CRYPTO.COM UFC 331: PRELIMS - UFC 331
+https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-iptv.rumsport10.live%2Flive_abr%2F490%2F720p%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789973247-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-005f47a11f3bfacad965faeaeceb75dd
+#EXTINF:-1 tvg-id="65169" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Force%20vs%20Brumbies.jpg" group-title="⚽ LIVE SPORTS", Force vs Brumbies - Super Rugby AUS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-iptv.rumsport10.live%2Flive_abr%2F54014%2F720p%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953449-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-df31f3df4662f8e760c2122bfbe4378f
-#EXTINF:-1 tvg-id="65147" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Toronto%20Blue%20Jays%20vs%20Texas%20Rangers.jpg" group-title="⚽ LIVE SPORTS", Toronto Blue Jays vs Texas Rangers - MLB
+https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-iptv.rumsport10.live%2Flive_abr%2F143071%2F720p%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789973248-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f678a5bf5d5e9bd5f29d91b52ea19f9e
+#EXTINF:-1 tvg-id="65172" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Race%20Day%20Part%202%20Australia.jpg" group-title="⚽ LIVE SPORTS", Race Day Part 2: Australia - MXGP
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-iptv.rumsport10.live%2Flive_abr%2F55842%2F720p%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953450-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9d955723fc9d8e35a473914c78bed23c
-#EXTINF:-1 tvg-id="65148" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Atlanta%20Braves%20vs%20Houston%20Astros.jpg" group-title="⚽ LIVE SPORTS", Atlanta Braves vs Houston Astros - MLB
+https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-iptv.rumsport10.live%2Flive_abr%2F208%2F720p%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789973250-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7c12d6d7e8f5c3b710b0b2175b48aca6
+#EXTINF:-1 tvg-id="67358" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Iran%20U23%20vs%20China%20PR%20U23.jpg" group-title="⚽ LIVE SPORTS", Iran U23 vs China PR U23 - Asian Games
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-iptv.rumsport10.live%2Flive_abr%2F55843%2F720p%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953451-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a678c5d2a639d9d4399904cb2f729cb7
-#EXTINF:-1 tvg-id="65150" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Washington%20Nationals%20vs%20St.%20Louis%20Cardinals.jpg" group-title="⚽ LIVE SPORTS", Washington Nationals vs St. Louis Cardinals - MLB
+https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f06987cb66c539aa09b51%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789973254-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1b7a44d967dfd5cc648da10363fef7eb
+#EXTINF:-1 tvg-id="67359" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Hong%20Kong%20U23%20vs%20Thailand%20U23.jpg" group-title="⚽ LIVE SPORTS", Hong Kong U23 vs Thailand U23 - Asian Games
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-iptv.rumsport10.live%2Flive_abr%2F55844%2F720p%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953452-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-eafd3a43585344f66e9a1cb36d78eb06
-#EXTINF:-1 tvg-id="46231" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/CF%20Montreal%20vs%20Columbus%20Crew.jpg" group-title="⚽ LIVE SPORTS", CF Montreal vs Columbus Crew - Major League Soccer [Server 1]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061ccd%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953453-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-204ec1b1a5ea0a33dd541c8d3a229bfc
-#EXTINF:-1 tvg-id="46231" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/CF%20Montreal%20vs%20Columbus%20Crew.jpg" group-title="⚽ LIVE SPORTS", CF Montreal vs Columbus Crew - Major League Soccer [Server 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061ccd-hd%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953455-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-12b6c1891b8832bba6f50ca506a66e0a
-#EXTINF:-1 tvg-id="64036" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Tampa%20Bay%20Rowdies%20vs%20Birmingham%20Legion.jpg" group-title="⚽ LIVE SPORTS", Tampa Bay Rowdies vs Birmingham Legion - USL Championship
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061ccf%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953459-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ff574b7d72e9d7357ec9e4e7608f8fc2
-#EXTINF:-1 tvg-id="64035" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Rhode%20Island%20vs%20Miami%20FC.jpg" group-title="⚽ LIVE SPORTS", Rhode Island vs Miami FC - USL Championship
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061cd0%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953460-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-37862b4bee5c83ba70a57ab23bf052fd
-#EXTINF:-1 tvg-id="64034" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Vasco%20DA%20Gama%20vs%20Coritiba.jpg" group-title="⚽ LIVE SPORTS", Vasco DA Gama vs Coritiba - Serie A
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a905812e9d80a100c5fb2be%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953461-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1395ef522ef2dd8b4bd6f022f001c653
-#EXTINF:-1 tvg-id="46229" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/San%20Jose%20Earthquakes%20vs%20Los%20Angeles%20FC.jpg" group-title="⚽ LIVE SPORTS", San Jose Earthquakes vs Los Angeles FC - Major League Soccer [Server 1]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061ccb%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953463-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-32f345abf46719079700e1a654817517
-#EXTINF:-1 tvg-id="46229" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/San%20Jose%20Earthquakes%20vs%20Los%20Angeles%20FC.jpg" group-title="⚽ LIVE SPORTS", San Jose Earthquakes vs Los Angeles FC - Major League Soccer [Server 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061ccb-hd%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953464-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0082db6628c5260a03093d5227d2f248
-#EXTINF:-1 tvg-id="46230" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/New%20England%20Revolution%20vs%20Orlando%20City%20SC.jpg" group-title="⚽ LIVE SPORTS", New England Revolution vs Orlando City SC - Major League Soccer [Server 1]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061ccc%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953465-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3a92e750af72530b44ca7a7d80c90eeb
-#EXTINF:-1 tvg-id="46230" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/New%20England%20Revolution%20vs%20Orlando%20City%20SC.jpg" group-title="⚽ LIVE SPORTS", New England Revolution vs Orlando City SC - Major League Soccer [Server 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061ccc-hd%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953466-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-67202061eab1d4d91a641a22456f02cf
-#EXTINF:-1 tvg-id="46232" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/DC%20United%20vs%20Charlotte.jpg" group-title="⚽ LIVE SPORTS", DC United vs Charlotte - Major League Soccer [Server 1]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061cce%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953467-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3525b00c0d20925586075bdae91e8374
-#EXTINF:-1 tvg-id="46232" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/DC%20United%20vs%20Charlotte.jpg" group-title="⚽ LIVE SPORTS", DC United vs Charlotte - Major League Soccer [Server 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061cce-hd%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953468-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-707dedb9906b5fe7aa97913861768e68
-#EXTINF:-1 tvg-id="65159" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Cruz%20vs%20Bravo.jpg" group-title="⚽ LIVE SPORTS", Cruz vs Bravo - Premier Boxing Champions
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-iptv.rumsport10.live%2Flive_abr%2F138858%2F720p%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953469-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2ff6ade1dfa146850a7421407d1f9deb
-#EXTINF:-1 tvg-id="65152" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Seattle%20Mariners%20vs%20Colorado%20Rockies.jpg" group-title="⚽ LIVE SPORTS", Seattle Mariners vs Colorado Rockies - MLB
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-iptv.rumsport10.live%2Flive_abr%2F55845%2F720p%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953472-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e68df8d414c026920a42e371d6a058ff
-#EXTINF:-1 tvg-id="65151" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/New%20York%20Yankees%20vs%20Arizona%20Diamondbacks.jpg" group-title="⚽ LIVE SPORTS", New York Yankees vs Arizona Diamondbacks - MLB
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-iptv.rumsport10.live%2Flive_abr%2F55846%2F720p%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953473-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-188c0c33ea2bf7c84a51ab20430ed90b
-#EXTINF:-1 tvg-id="64756" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Instituto%20Cordoba%20vs%20Talleres%20Cordoba.jpg" group-title="⚽ LIVE SPORTS", Instituto Cordoba vs Talleres Cordoba - Liga Profesional Argentina
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a905812e9d80a100c5fb2b0%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953475-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-838c103122cdf326a05e8d88267f09a9
-#EXTINF:-1 tvg-id="46235" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Sporting%20Kansas%20City%20vs%20Philadelphia%20Union.jpg" group-title="⚽ LIVE SPORTS", Sporting Kansas City vs Philadelphia Union - Major League Soccer [Server 1]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061cd5-hd%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953476-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c54e2460cdef7ee56820ff58b1c7689d
-#EXTINF:-1 tvg-id="46235" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Sporting%20Kansas%20City%20vs%20Philadelphia%20Union.jpg" group-title="⚽ LIVE SPORTS", Sporting Kansas City vs Philadelphia Union - Major League Soccer [Server 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061cd5%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953477-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-00c95d82189dd9e482251734467bd341
-#EXTINF:-1 tvg-id="46234" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Houston%20Dynamo%20vs%20FC%20Cincinnati.jpg" group-title="⚽ LIVE SPORTS", Houston Dynamo vs FC Cincinnati - Major League Soccer [Server 1]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061cd6-hd%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953478-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-cdeb652ceb754a49534c45bfb70c9281
-#EXTINF:-1 tvg-id="46234" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Houston%20Dynamo%20vs%20FC%20Cincinnati.jpg" group-title="⚽ LIVE SPORTS", Houston Dynamo vs FC Cincinnati - Major League Soccer [Server 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061cd6%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953479-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9df383d30da04ce18a188c81f96bb11f
-#EXTINF:-1 tvg-id="46236" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Minnesota%20United%20FC%20vs%20Los%20Angeles%20Galaxy.jpg" group-title="⚽ LIVE SPORTS", Minnesota United FC vs Los Angeles Galaxy - Major League Soccer [Server 1]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061cd4-hd%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953480-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ebe44761f61ba39df1af8db4c844234f
-#EXTINF:-1 tvg-id="46236" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Minnesota%20United%20FC%20vs%20Los%20Angeles%20Galaxy.jpg" group-title="⚽ LIVE SPORTS", Minnesota United FC vs Los Angeles Galaxy - Major League Soccer [Server 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061cd4%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953481-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ac934a8d4a4832a082281827a7907eb7
-#EXTINF:-1 tvg-id="46233" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/FC%20Dallas%20vs%20Austin.jpg" group-title="⚽ LIVE SPORTS", FC Dallas vs Austin - Major League Soccer [Server 1]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061cd7-hd%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953483-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d37ea62e673145bc70febad081f6aafd
-#EXTINF:-1 tvg-id="46233" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/FC%20Dallas%20vs%20Austin.jpg" group-title="⚽ LIVE SPORTS", FC Dallas vs Austin - Major League Soccer [Server 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061cd7%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953484-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e287dc69f6aaa9417b4f91c5768cb8c1
-#EXTINF:-1 tvg-id="46237" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/St.%20Louis%20City%20vs%20Toronto%20FC.jpg" group-title="⚽ LIVE SPORTS", St. Louis City vs Toronto FC - Major League Soccer [Server 1]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061cd3-hd%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953485-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-92581b91d746167236677a5323aa39f5
-#EXTINF:-1 tvg-id="46237" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/St.%20Louis%20City%20vs%20Toronto%20FC.jpg" group-title="⚽ LIVE SPORTS", St. Louis City vs Toronto FC - Major League Soccer [Server 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061cd3%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953486-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-20494de2c745093b4a69fe1ae6cac60d
-#EXTINF:-1 tvg-id="65153" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Miami%20Marlins%20vs%20San%20Diego%20Padres.jpg" group-title="⚽ LIVE SPORTS", Miami Marlins vs San Diego Padres - MLB
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-iptv.rumsport10.live%2Flive_abr%2F55847%2F720p%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953487-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b65813b145ffc41775a3c0206fce9cdc
-#EXTINF:-1 tvg-id="65157" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/CRYPTO.COM%20UFC%20331%20VAN%20vs%20PANTOJA%202.jpg" group-title="⚽ LIVE SPORTS", CRYPTO.COM UFC 331: VAN vs PANTOJA 2 - UFC 331
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-iptv.rumsport10.live%2Flive_abr%2F54014%2F720p%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953489-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-928869ec08921a410fd49192fa2047b4
-#EXTINF:-1 tvg-id="64760" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Monarcas%20vs%20Leones%20Negros%20UDG.jpg" group-title="⚽ LIVE SPORTS", Monarcas vs Leones Negros UDG - Liga de Expansión MX
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061cdd%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953490-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-60af2b923357bf23f3e3e460c800f3fe
-#EXTINF:-1 tvg-id="64761" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Canc%C3%BAn%20vs%20Alebrijes%20de%20Oaxaca.jpg" group-title="⚽ LIVE SPORTS", Cancún vs Alebrijes de Oaxaca - Liga de Expansión MX
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061cdc%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953491-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1c573271223de712216c9b26bffb39b1
-#EXTINF:-1 tvg-id="64762" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/CDS%20Tampico%20Madero%20vs%20Dorados.jpg" group-title="⚽ LIVE SPORTS", CDS Tampico Madero vs Dorados - Liga de Expansión MX
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061cdb%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953492-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-db2d5710a38f1a04af4e95b0e79f3077
-#EXTINF:-1 tvg-id="64758" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Colorado%20Springs%20vs%20New%20Mexico%20United.jpg" group-title="⚽ LIVE SPORTS", Colorado Springs vs New Mexico United - USL Championship
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061cda%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953494-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c6e7bb9953056c6a2eb03baa514feedc
-#EXTINF:-1 tvg-id="64759" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Monterrey%20vs%20Cruz%20Azul.jpg" group-title="⚽ LIVE SPORTS", Monterrey vs Cruz Azul - Liga MX
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061cd9%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953495-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f2368f555e51a3c93c7f11374386257a
-#EXTINF:-1 tvg-id="65154" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/San%20Francisco%20Giants%20vs%20Los%20Angeles%20Dodgers.jpg" group-title="⚽ LIVE SPORTS", San Francisco Giants vs Los Angeles Dodgers - MLB
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-iptv.rumsport10.live%2Flive_abr%2F55850%2F720p%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953497-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-fe13c8ecdb6a6a9532aa44fff2bf3667
-#EXTINF:-1 tvg-id="46238" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Real%20Salt%20Lake%20vs%20Vancouver%20Whitecaps.jpg" group-title="⚽ LIVE SPORTS", Real Salt Lake vs Vancouver Whitecaps - Major League Soccer
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061ce0-hd%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953500-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a7eec37cb833f70ee834a5d82ead8a75
-#EXTINF:-1 tvg-id="46239" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Colorado%20Rapids%20vs%20Seattle%20Sounders.jpg" group-title="⚽ LIVE SPORTS", Colorado Rapids vs Seattle Sounders - Major League Soccer
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061ce2-hd%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953502-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-019c8a65dbffef1ff52f644bb4a80691
-#EXTINF:-1 tvg-id="46240" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Nashville%20SC%20vs%20Chicago%20Fire.jpg" group-title="⚽ LIVE SPORTS", Nashville SC vs Chicago Fire - Major League Soccer
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f0698daf8f9c59c061ce1-hd%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953504-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-add6b4af28064242e761f233bce2a46c
-#EXTINF:-1 tvg-id="65155" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Minnesota%20Twins%20vs%20Los%20Angeles%20Angels.jpg" group-title="⚽ LIVE SPORTS", Minnesota Twins vs Los Angeles Angels - MLB
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-iptv.rumsport10.live%2Flive_abr%2F55849%2F720p%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789953507-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6ac90aac38615cd48fa9d15fcd9dc62d
+https://tv.ngoibut-cachmang.workers.dev/proxy/stream?url=https%3A%2F%2Flivecdn-tc-livestream.rumsport10.live%2Fsla%2F1-6a8f06987cb66c539aa09b54%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1789973254-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-363a591b7dfc9144a00bd9cd4af3f7c1
