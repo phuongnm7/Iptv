@@ -822,6 +822,18 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150141.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150140.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="FR - HÄCKEN DAMER VS JUVENTUS — 16:45 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",FR - HÄCKEN DAMER VS JUVENTUS — 16:45 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1096028.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FR - OL LYONNES VS CHELSEA FC — 19:00 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",FR - OL LYONNES VS CHELSEA FC — 19:00 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1096034.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FR - SL BENFICA VS BAYERN — 19:00 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",FR - SL BENFICA VS BAYERN — 19:00 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1096029.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",FR - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150136.ts
@@ -836,19 +848,7 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1096035.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",FR - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1096034.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",FR - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1096031.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FR -SL BENFICA VS BAYERN — 19:00 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",FR -SL BENFICA VS BAYERN — 19:00 CET
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1096029.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FR -HÄCKEN DAMER VS JUVENTUS — 16:45 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",FR -HÄCKEN DAMER VS JUVENTUS — 16:45 CET
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1096028.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="###### ENGLISH ######" tvg-logo="https://go4.pw/EUROPE/UK/UK.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",###### ENGLISH ######
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
@@ -861,6 +861,18 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150168.ts
 #EXTINF:-1 tvg-id="" tvg-name="EN - PARIS FC VS ARSENAL — 16:45 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",EN - PARIS FC VS ARSENAL — 16:45 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150167.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="EN - HÄCKEN DAMER VS JUVENTUS — 16:45 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",EN - HÄCKEN DAMER VS JUVENTUS — 16:45 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1096019.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="EN - OL LYONNES VS CHELSEA FC — 19:00 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",EN - OL LYONNES VS CHELSEA FC — 19:00 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1096022.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="EN - SL BENFICA VS BAYERN — 19:00 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",EN - SL BENFICA VS BAYERN — 19:00 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1096020.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",EN - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
@@ -878,18 +890,6 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150164.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150163.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",EN - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1096022.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="EN - SL BENFICA VS BAYERN — 19:00 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",EN - SL BENFICA VS BAYERN — 19:00 CET
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1096020.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="EN - HÄCKEN DAMER VS JUVENTUS — 16:45 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",EN - HÄCKEN DAMER VS JUVENTUS — 16:45 CET
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1096019.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="###### ARABIC ######" tvg-logo="https://go4.pw/ASIA/SAUDI/SAUDI.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",###### ARABIC ######
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1296613.ts
@@ -901,6 +901,22 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1292008.ts
 #EXTINF:-1 tvg-id="" tvg-name="AR - PARIS FC VS ARSENAL — 16:45 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",AR - PARIS FC VS ARSENAL — 16:45 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1292007.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR - HÄCKEN DAMER VS JUVENTUS — 16:45 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",AR - HÄCKEN DAMER VS JUVENTUS — 16:45 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1096003.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR - OL LYONNES VS CHELSEA FC — 19:00 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",AR - OL LYONNES VS CHELSEA FC — 19:00 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150133.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR - SL BENFICA VS BAYERN — 19:00 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",AR - SL BENFICA VS BAYERN — 19:00 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150127.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",AR - NO MATCH
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1096005.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",AR - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
@@ -914,22 +930,6 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150139.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150138.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",AR - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150133.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",AR - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150127.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",AR - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1096005.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR - HÄCKEN DAMER VS JUVENTUS — 16:45 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",AR - HÄCKEN DAMER VS JUVENTUS — 16:45 CET
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1096003.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="###### SPANISH ######" tvg-logo="https://go4.pw/EUROPE/SPAIN/SPAIN.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",###### SPANISH ######
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1296614.ts
@@ -941,6 +941,22 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1292015.ts
 #EXTINF:-1 tvg-id="" tvg-name="SP - PARIS FC VS ARSENAL — 16:45 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",SP - PARIS FC VS ARSENAL — 16:45 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150174.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SP - HÄCKEN DAMER VS JUVENTUS — 16:45 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",SP - HÄCKEN DAMER VS JUVENTUS — 16:45 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1040907.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SP - OL LYONNES VS CHELSEA FC — 19:00 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",SP - OL LYONNES VS CHELSEA FC — 19:00 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1095989.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SP - SL BENFICA VS BAYERN — 19:00 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",SP - SL BENFICA VS BAYERN — 19:00 CET
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1095988.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SP - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",SP - NO MATCH
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1095985.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="SP - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",SP - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
@@ -954,53 +970,37 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1095991.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1095990.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="SP - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",SP - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1095989.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SP - SL BENFICA VS BAYERN — 19:00 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",SP - SL BENFICA VS BAYERN — 19:00 CET
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1095988.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SP - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",SP - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1095985.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SP - HÄCKEN DAMER VS JUVENTUS — 16:45 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",SP - HÄCKEN DAMER VS JUVENTUS — 16:45 CET
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1040907.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="###### DEUTSCH ######" tvg-logo="https://go4.pw/FLAGS/flag_germany.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",###### DEUTSCH ######
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1296621.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="DE - ROMA VS BARCELONA — 16:45 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",DE - ROMA VS BARCELONA — 16:45 CET
+#EXTINF:-1 tvg-id="" tvg-name="DE - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",DE - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1292020.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="DE - PARIS FC VS ARSENAL — 16:45 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",DE - PARIS FC VS ARSENAL — 16:45 CET
+#EXTINF:-1 tvg-id="" tvg-name="DE - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",DE - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1292019.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="DE - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",DE - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1274770.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="DE - SL BENFICA VS BAYERN — 19:00 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",DE - SL BENFICA VS BAYERN — 19:00 CET
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1274765.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="DE - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",DE - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150171.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="DE - HÄCKEN DAMER VS JUVENTUS — 16:45 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",DE - HÄCKEN DAMER VS JUVENTUS — 16:45 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1095981.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="DE - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",DE - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1024111.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="DE - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",DE - NO MATCH
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1274765.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="DE - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",DE - NO MATCH
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1274770.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="DE - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",DE - NO MATCH
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150171.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="DE - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",DE - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
@@ -1014,13 +1014,29 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1024434.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1296619.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ALB - ROMA VS BARCELONA — 16:45 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",ALB - ROMA VS BARCELONA — 16:45 CET
+#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",ALB - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1274757.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ALB - PARIS FC VS ARSENAL — 16:45 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",ALB - PARIS FC VS ARSENAL — 16:45 CET
+#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",ALB - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1274756.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",ALB - NO MATCH
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150137.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",ALB - NO MATCH
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150156.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",ALB - NO MATCH
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150155.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",ALB - NO MATCH
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150154.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",ALB - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
@@ -1033,22 +1049,6 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150172.ts
 #EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",ALB - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150157.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",ALB - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150156.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",ALB - NO MATCH
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150154.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ALB - HÄCKEN DAMER VS JUVENTUS — 16:45 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",ALB - HÄCKEN DAMER VS JUVENTUS — 16:45 CET
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150137.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ALB - SL BENFICA VS BAYERN — 19:00 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",ALB - SL BENFICA VS BAYERN — 19:00 CET
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150155.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="##### ENGLISH #####" tvg-logo="https://go4.pw/EUROPE/UK/UK.png" group-title="VIP | PREMIER LEAGUE",##### ENGLISH #####
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
