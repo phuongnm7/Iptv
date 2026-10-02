@@ -1,0 +1,50 @@
+name: Film4K Sports Candidate Probe
+on:
+  push:
+    branches:
+      - tmp/film4k-all-streams-fix-20261002
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe VTVcab direct HLS candidates
+        shell: bash
+        run: |
+          set -u
+          probe() {
+            local name="$1" url="$2" ua="$3"
+            echo "===== $name ====="
+            tmp=$(mktemp)
+            start=$(date +%s%3N)
+            code=$(curl -k -L --connect-timeout 6 --max-time 12 -A "$ua" -H 'Referer: https://tv.vtvcab.vn/' -H 'Origin: https://tv.vtvcab.vn' -sS -o "$tmp" -w '%{http_code}|%{content_type}|%{url_effective}|%{size_download}' "$url" || true)
+            end=$(date +%s%3N)
+            echo "META: $code"
+            echo "MS: $((end-start))"
+            python3 - "$tmp" <<'PY'
+          import sys
+          p=sys.argv[1]
+          b=open(p,'rb').read(1600)
+          try: print("HEAD:",b.decode('utf-8','replace').replace('\r',' ').replace('\n',' ')[:1000])
+          except: pass
+          print("BYTES:",len(open(p,'rb').read()))
+          PY
+            if head -c 1600 "$tmp" | grep -aqE '#EXTM3U|#EXT-X-'; then echo "CLASS: HLS_MANIFEST"; else echo "CLASS: NOT_HLS_TEXT"; fi
+            rm -f "$tmp"
+          }
+          UA='Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36'
+          probe "ON Sports livevlive" "https://livevlive.vtvcab.vn/hls/OS_THETHAO_HD/sc-gaFEAA/m30_index.m3u8" "$UA"
+          probe "ON Football livevlive" "https://livevlive.vtvcab.vn/hls/OS_BONGDA_HD/sc-gaFEAA/m30_index.m3u8" "$UA"
+          probe "ON Sports News livevlive" "https://livevlive.vtvcab.vn/hls/OS_THETHAO_TINTUC_HD/sc-gaFEAA/m30_index.m3u8" "$UA"
+          probe "ON Sports+ livevlive" "https://livevlive.vtvcab.vn/hls/OS_HAY_TV/sc-gaFEAA/m30_index.m3u8" "$UA"
+          probe "ON Golf livevlive" "https://livevlive.vtvcab.vn/hls/OS_THETHAO_GOLF_HD/sc-gaFEAA/m30_index.m3u8" "$UA"
+          probe "ON Sports vtvcdn" "https://856175157.r.vtvcdn.com/ondrm/THETHAO_HD/m30_index.m3u8" "VAgroup"
+          probe "ON Football vtvcdn" "https://856175157.r.vtvcdn.com/ondrm/BONGDA_HD/m30_index.m3u8" "VAgroup"
+          probe "ON Sports News vtvcdn" "https://856175157.r.vtvcdn.com/ondrm/THETHAO_TINTUC_HD/m30_index.m3u8" "VAgroup"
+          probe "ON Golf vtvcdn" "https://856175157.r.vtvcdn.com/ondrm/THETHAO_GOLF_HD/m30_index.m3u8" "VAgroup"
+          probe "ON Sports+ v2 vtvcdn" "https://509942876.r.vtvcdn.com/HAY_TV/v2_index.m3u8" "$UA"
+          probe "ON Sports+ vtvcdn old" "https://856175157.r.vtvcdn.com/ondrm/HAY_TV/m30_index.m3u8" "VAgroup"
+          probe "Film4K VTVcab16 proxy HLS" "https://prv.film4k.net/live/tv360/174/manifest.m3u8" "$UA"
+          probe "Film4K VTVcab3 proxy HLS" "https://prv.film4k.net/live/tv360/173/manifest.m3u8" "$UA"
+          probe "Film4K VTVcab18 proxy HLS" "https://prv.film4k.net/live/tv360/170/manifest.m3u8" "$UA"
+          probe "Film4K VTVcab23 proxy HLS" "https://prv.film4k.net/live/tv360/169/manifest.m3u8" "$UA"
+          probe "Film4K VTVcab6 proxy HLS" "https://prv.film4k.net/live/tv360/183/manifest.m3u8" "$UA"
