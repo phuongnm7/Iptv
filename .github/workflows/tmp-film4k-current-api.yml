@@ -1,0 +1,25 @@
+name: Film4K Current TV API Probe
+on:
+  push:
+    branches:
+      - tmp/film4k-all-streams-fix-20261002
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect current Film4K TV page and API
+        shell: bash
+        run: |
+          set -u
+          for u in             'https://film4k.net/tv'             'https://film4k.net/api/tv'             'https://film4k.net/api/tv/channels'             'https://film4k.net/api/tv/ants/3/index.m3u8'             'https://film4k.net/api/tv/360/174'             'https://film4k.net/api/tv/360/173'
+          do
+            echo "===== $u ====="
+            f=$(mktemp)
+            curl -k -L --connect-timeout 8 --max-time 15 -A 'Mozilla/5.0 (Linux; Android 15) AppleWebKit/537.36 Chrome/140.0.0.0 Mobile Safari/537.36' -H 'Referer: https://film4k.net/' -sS -o "$f" -w 'META %{http_code}|%{content_type}|%{url_effective}|%{size_download}\n' "$u" || true
+            echo 'HEAD:'
+            head -c 1200 "$f" | tr '\r\n' ' ' | sed 's/></>\n</g' | head -c 5000
+            echo
+            echo 'URL-LIKE:'
+            grep -aoE 'https?://[^"<> ]+|/api/[^"<> ]+|/live/[^"<> ]+' "$f" | head -80 || true
+            rm -f "$f"
+          done
