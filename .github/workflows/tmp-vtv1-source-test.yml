@@ -1,0 +1,25 @@
+name: tmp-vtv1-source-test
+on:
+  push:
+    branches:
+      - tmp/film4k-live-fallback-20261002
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          python3 - <<'PY'
+          import urllib.request
+          urls=[
+          "https://live.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8",
+          "https://live.fptplay53.net/fnxch2/vtv1hd_abr.smil/chunklist.m3u8",
+          "https://ott1.nethubtv.vn/live/vtv1/playlist.m3u8",
+          "https://tv.ddns.vn/tv/vtv1fhd/index.m3u8"]
+          for u in urls:
+            try:
+              r=urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0"}),timeout=12)
+              b=r.read(2000); print("OK",r.status,r.headers.get("content-type"),len(b),u,repr(b[:80]))
+            except Exception as e: print("ERR",type(e).__name__,getattr(e,"code",""),u)
+          PY
