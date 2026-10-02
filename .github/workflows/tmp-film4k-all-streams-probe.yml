@@ -7,33 +7,38 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Probe URLs
+      - name: Probe manifests
         shell: bash
         run: |
-          set +e
+          set -u
           probe() {
             local name="$1" url="$2"
             echo "===== $name ====="
             tmp=$(mktemp)
-            code=$(curl -L --connect-timeout 10 --max-time 25 -A 'Mozilla/5.0' -H 'Referer: https://film4k.net/' -sS -o "$tmp" -w '%{http_code} %{content_type}' "$url")
-            first=$(head -c 180 "$tmp" | tr '\n' ' ' | tr -d '\r')
+            start=$(date +%s%3N)
+            code=$(curl -L --connect-timeout 8 --max-time 18 -A 'Mozilla/5.0 (Linux; Android 15) AppleWebKit/537.36 Chrome/140.0.0.0 Mobile Safari/537.36' -H 'Referer: https://film4k.net/' -H 'Origin: https://film4k.net' -sS -o "$tmp" -w '%{http_code}|%{content_type}|%{url_effective}' "$url" || true)
+            end=$(date +%s%3N)
+            bytes=$(wc -c < "$tmp")
+            first=$(head -c 500 "$tmp" | tr '\n' ' ' | tr -d '\r')
             echo "META: $code"
-            echo "BODY: $first"
+            echo "MS: $((end-start)) BYTES: $bytes"
+            echo "HEAD: $first"
+            if grep -aq '^#EXTM3U\|^#EXT-X-' "$tmp"; then echo "CLASS: HLS_MANIFEST"; else echo "CLASS: NOT_HLS_TEXT"; fi
+            if grep -aq '<MPD\|<mpd' "$tmp"; then echo "CLASS: DASH_MANIFEST"; fi
             rm -f "$tmp"
           }
-          probe "VTV1 .mpd" "https://prv.film4k.net/live/tv360/2/manifest.mpd"
-          probe "VTV1 .m3u8" "https://prv.film4k.net/live/tv360/2/manifest.m3u8"
-          probe "VTV2 .mpd" "https://prv.film4k.net/live/tv360/3/manifest.mpd"
-          probe "VTV2 .m3u8" "https://prv.film4k.net/live/tv360/3/manifest.m3u8"
-          probe "ANTV .mpd" "https://prv.film4k.net/live/tv360/20/manifest.mpd"
-          probe "ANTV .m3u8" "https://prv.film4k.net/live/tv360/20/manifest.m3u8"
-          probe "QPVN .m3u8" "https://prv.film4k.net/live/tv360/19/manifest.m3u8"
-          probe "VTV5TN .m3u8" "https://prv.film4k.net/live/tv360/207/manifest.m3u8"
-          probe "TV360+1 .m3u8" "https://prv.film4k.net/live/tv360/2554/manifest.m3u8"
-          probe "TV360+2 .m3u8" "https://prv.film4k.net/live/tv360/1/manifest.m3u8"
-          probe "VTVcab-like 271 .m3u8" "https://prv.film4k.net/live/tv360/271/manifest.m3u8"
-          probe "VTV1 direct FPT" "https://live-a.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8"
-          probe "VTV2 direct FPT" "https://live-a.fptplay53.net/live/media/vtv2/live247-hls-avc/index.m3u8"
-          probe "VTV3 direct FPT" "https://live-a.fptplay53.net/live/media/vtv3/live247-hls-avc/index.m3u8"
-          probe "ANTS TNT1" "https://film4k.net/api/tv/ants/3/index.m3u8"
-          probe "ANTS ITV1" "https://film4k.net/api/tv/ants/7/index.m3u8"
+          probe "prv VTV1 mpd" "https://prv.film4k.net/live/tv360/2/manifest.mpd"
+          probe "prv VTV1 m3u8" "https://prv.film4k.net/live/tv360/2/manifest.m3u8"
+          probe "prv VTV2 mpd" "https://prv.film4k.net/live/tv360/3/manifest.mpd"
+          probe "prv VTV2 m3u8" "https://prv.film4k.net/live/tv360/3/manifest.m3u8"
+          probe "prv ANTV mpd" "https://prv.film4k.net/live/tv360/20/manifest.mpd"
+          probe "prv ANTV m3u8" "https://prv.film4k.net/live/tv360/20/manifest.m3u8"
+          probe "prv QPVN m3u8" "https://prv.film4k.net/live/tv360/19/manifest.m3u8"
+          probe "tvmienphi VTV1" "https://tvmienphi.duckdns.org/tv360/2/index.m3u8"
+          probe "tvmienphi VTV2" "https://tvmienphi.duckdns.org/tv360/3/index.m3u8"
+          probe "tvmienphi ANTV" "https://tvmienphi.duckdns.org/tv360/20/index.m3u8"
+          probe "film4k ANTS TNT1" "https://film4k.net/api/tv/ants/3/index.m3u8"
+          probe "film4k ANTS ITV1" "https://film4k.net/api/tv/ants/7/index.m3u8"
+          probe "FPT VTV1" "https://live-a.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8"
+          probe "FPT VTV2" "https://live-a.fptplay53.net/live/media/vtv2/live247-hls-avc/index.m3u8"
+          probe "FPT VTV3" "https://live-a.fptplay53.net/live/media/vtv3/live247-hls-avc/index.m3u8"
