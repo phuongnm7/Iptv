@@ -17,7 +17,8 @@ jobs:
           set -euo pipefail
           python3 - <<'PY'
           import json, urllib.request, urllib.parse, ssl, http.cookiejar, re
-          BASE="https://fiml4k.fun"
+          BASES=["https://fiml4k.fun","https://film4k.annnekkk.com","https://film4k.net"]
+          BASE=""
           APP_TOKEN="rhLMhSOh/TQCQbuFYWLnYOUoQulZrf4S"
           UA="Mozilla/5.0 (Linux; Android 14; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
           jar=http.cookiejar.CookieJar()
