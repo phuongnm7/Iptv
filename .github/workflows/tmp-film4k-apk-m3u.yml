@@ -21,14 +21,14 @@ jobs:
           APP_TOKEN="rhLMhSOh/TQCQbuFYWLnYOUoQulZrf4S"
           UA="Mozilla/5.0 (Linux; Android 14; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
           jar=http.cookiejar.CookieJar()
-          opener=urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
+          opener=urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar), urllib.request.HTTPSHandler(context=ssl.create_default_context()))
           base_headers={"User-Agent":UA,"X-F4K-App":"android","X-F4K-App-Token":APP_TOKEN,"Accept":"application/json,text/plain,*/*"}
 
           def req(url, method="GET", headers=None, data=None):
               h=dict(base_headers); h.update(headers or {})
               rreq=urllib.request.Request(url,data=data,headers=h,method=method)
               try:
-                  r=opener.open(rreq,timeout=30,context=ssl.create_default_context())
+                  r=opener.open(rreq,timeout=30)
                   return r.geturl(),r.status,r.headers.get("content-type",""),dict(r.headers),r.read()
               except urllib.error.HTTPError as e:
                   return e.geturl(),e.code,e.headers.get("content-type",""),dict(e.headers),e.read()
