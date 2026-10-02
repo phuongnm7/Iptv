@@ -1,0 +1,17 @@
+name: tmp-tv360-page-source
+on:
+  push:
+    branches:
+      - tmp/film4k-live-fallback-20261002
+permissions: contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          set -e
+          curl -L --max-time 20 -A 'Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 Chrome/124 Safari/537.36' -sS 'https://tv360.vn/tv/vtv1-hd?ch=2' -o /tmp/tv.html
+          wc -c /tmp/tv.html
+          grep -Eo 'https?[^" ]+(m3u8|mpd)[^" ]*' /tmp/tv.html | head -20 || true
+          grep -Eo 'https?[^" ]*(api[^" ]*|stream[^" ]*|play[^" ]*|channel[^" ]*)' /tmp/tv.html | head -50 || true
+          grep -oE '.{0,120}(get-link|streamUrl|stream_url|manifest|playUrl|play_url|channelId).{0,200}' /tmp/tv.html | head -80 || true
