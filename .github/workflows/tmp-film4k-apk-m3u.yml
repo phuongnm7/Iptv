@@ -33,17 +33,31 @@ jobs:
               except urllib.error.HTTPError as e:
                   return e.geturl(),e.code,e.headers.get("content-type",""),dict(e.headers),e.read()
 
-          # APK interceptor behavior: mint a play token then attach it to later requests.
-          u,s,ct,h,b=req(BASE+"/api/play-ticket")
-          txt=b.decode("utf-8","replace")
-          print(f"play-ticket HTTP={s} content-type={ct!r} body_len={len(b)}")
-          m=re.search(r'"token"\\s*:\\s*"([^"]+)"',txt)
-          if not m:
-              m=re.search(r'[A-Za-z0-9._~+/-]{20,}',txt)
-          pt=m.group(1) if m and m.lastindex else (m.group(0) if m else "")
-          if not pt:
-              raise SystemExit("No play token returned")
-          print(f"play-ticket token acquired: yes; cookies={len(list(jar))}")
+          # Mint a play token using the same app identity as the APK.
+          for candidate in BASES:
+              extra={
+                  "Origin":"https://film4k.net",
+                  "Referer":"https://film4k.net/",
+                  "Accept-Language":"vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
+                  "Sec-Fetch-Site":"cross-site",
+                  "Sec-Fetch-Mode":"cors",
+                  "Sec-Fetch-Dest":"empty",
+                  "sec-ch-ua-mobile":"?1",
+                  "sec-ch-ua-platform":"Android",
+              }
+              u,s,ct,h,b=req(candidate+"/api/play-ticket",headers=extra)
+              print(f"play-ticket {candidate}: HTTP={s} type={ct!r} len={len(b)}")
+              if 200 <= s < 300:
+                  BASE=candidate
+                  txt=b.decode("utf-8","replace")
+                  m=re.search(r'"token"\s*:\s*"([^"]+)"',txt)
+                  if not m:
+                      m=re.search(r'[A-Za-z0-9._~+/-]{20,}',txt)
+                  pt=m.group(1) if m and m.lastindex else (m.group(0) if m else "")
+                  break
+          if not BASE or not pt:
+              raise SystemExit("No usable Film4k API alias/play token")
+          print(f"usable API alias: {BASE}; token acquired: yes; cookies={len(list(jar))}")
 
           ph={"X-F4K-PT":pt}
           u,s,ct,h,b=req(BASE+"/api/tv/channels",headers=ph)
