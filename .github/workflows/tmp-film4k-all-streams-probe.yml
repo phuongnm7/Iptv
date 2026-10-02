@@ -1,0 +1,39 @@
+name: Temp Film4K Stream Probe
+on:
+  push:
+    branches:
+      - tmp/film4k-all-streams-fix-20261002
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe URLs
+        shell: bash
+        run: |
+          set +e
+          probe() {
+            local name="$1" url="$2"
+            echo "===== $name ====="
+            tmp=$(mktemp)
+            code=$(curl -L --connect-timeout 10 --max-time 25 -A 'Mozilla/5.0' -H 'Referer: https://film4k.net/' -sS -o "$tmp" -w '%{http_code} %{content_type}' "$url")
+            first=$(head -c 180 "$tmp" | tr '\n' ' ' | tr -d '\r')
+            echo "META: $code"
+            echo "BODY: $first"
+            rm -f "$tmp"
+          }
+          probe "VTV1 .mpd" "https://prv.film4k.net/live/tv360/2/manifest.mpd"
+          probe "VTV1 .m3u8" "https://prv.film4k.net/live/tv360/2/manifest.m3u8"
+          probe "VTV2 .mpd" "https://prv.film4k.net/live/tv360/3/manifest.mpd"
+          probe "VTV2 .m3u8" "https://prv.film4k.net/live/tv360/3/manifest.m3u8"
+          probe "ANTV .mpd" "https://prv.film4k.net/live/tv360/20/manifest.mpd"
+          probe "ANTV .m3u8" "https://prv.film4k.net/live/tv360/20/manifest.m3u8"
+          probe "QPVN .m3u8" "https://prv.film4k.net/live/tv360/19/manifest.m3u8"
+          probe "VTV5TN .m3u8" "https://prv.film4k.net/live/tv360/207/manifest.m3u8"
+          probe "TV360+1 .m3u8" "https://prv.film4k.net/live/tv360/2554/manifest.m3u8"
+          probe "TV360+2 .m3u8" "https://prv.film4k.net/live/tv360/1/manifest.m3u8"
+          probe "VTVcab-like 271 .m3u8" "https://prv.film4k.net/live/tv360/271/manifest.m3u8"
+          probe "VTV1 direct FPT" "https://live-a.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8"
+          probe "VTV2 direct FPT" "https://live-a.fptplay53.net/live/media/vtv2/live247-hls-avc/index.m3u8"
+          probe "VTV3 direct FPT" "https://live-a.fptplay53.net/live/media/vtv3/live247-hls-avc/index.m3u8"
+          probe "ANTS TNT1" "https://film4k.net/api/tv/ants/3/index.m3u8"
+          probe "ANTS ITV1" "https://film4k.net/api/tv/ants/7/index.m3u8"
