@@ -1,0 +1,19 @@
+name: tmp-vtv1-curl-test
+on:
+  push:
+    branches:
+      - tmp/film4k-live-fallback-20261002
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          set +e
+          for u in "https://live.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8" "https://live.fptplay53.net/fnxch2/vtv1hd_abr.smil/chunklist.m3u8" "https://ott1.nethubtv.vn/live/vtv1/playlist.m3u8"; do
+            echo "=== $u"
+            curl -L --connect-timeout 3 --max-time 8 -A 'Mozilla/5.0' -sS -D /tmp/h -o /tmp/b "$u"
+            ec=$?
+            echo "curl=$ec"; head -20 /tmp/h 2>/dev/null; echo "BODY:"; head -c 300 /tmp/b 2>/dev/null; echo
+          done
