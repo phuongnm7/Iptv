@@ -1,0 +1,64 @@
+name: tmp-film4k-live-fallback
+
+on:
+  push:
+    branches:
+      - tmp/film4k-live-fallback-20261002
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test live fallback and build playable playlist
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, urllib.request, ssl, concurrent.futures
+          SRC="https://raw.githubusercontent.com/Gicnycjgfg/film4k-tv/main/film4k_tv.json"
+          with urllib.request.urlopen(urllib.request.Request(SRC,headers={"User-Agent":"Mozilla/5.0"}),timeout=30,context=ssl.create_default_context()) as r:
+              data=json.load(r)
+          channels=data["channels"]
+          H={"User-Agent":"Mozilla/5.0 (Linux; Android 14; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36","Accept":"*/*","Referer":"https://film4k.net/","Origin":"https://film4k.net"}
+          def get(u):
+              try:
+                  rr=urllib.request.Request(u,headers=H)
+                  with urllib.request.urlopen(rr,timeout=10,context=ssl.create_default_context()) as r:
+                      ct=(r.headers.get("content-type") or "").lower(); body=r.read(4096); s=body.decode("utf-8","replace").lstrip()
+                      ok=(r.status<400 and (s.startswith("#EXTM3U") or "mpegurl" in ct or s.startswith("<MPD") or "dash+xml" in ct))
+                      return ok,f"HTTP{r.status}/{ct}",s[:100].replace("\n"," ")
+              except Exception as e: return False,type(e).__name__+":"+str(getattr(e,"code","")),""
+          def probe(item):
+              i,ch=item; cid=str(ch.get("id","")); original=ch.get("streamUrl") or ch.get("url") or ""
+              candidates=[]
+              if cid.isdigit(): candidates.append(f"http://thvip.site/360/{cid}/index.m3u8")
+              candidates.append(original)
+              for u in candidates:
+                  ok,st,s=get(u)
+                  if ok:return i,ch,u,st
+              return i,ch,None,st
+          with concurrent.futures.ThreadPoolExecutor(max_workers=20) as ex: results=sorted(ex.map(probe,enumerate(channels,1)))
+          def esc(s):return str(s).replace("&","&amp;").replace('"',"&quot;")
+          out=["#EXTM3U","#PLAYLIST:Film4k TV - live fallback"]
+          good=[]; failed=[]
+          for i,ch,u,st in results:
+              if u: 
+                  good.append((ch,u,st))
+                  out.append(f'#EXTINF:-1 tvg-id="{esc(ch.get("id",""))}" tvg-name="{esc(ch.get("name") or "Unknown")}" tvg-logo="{esc(ch.get("logo") or "")}" group-title="{esc(ch.get("group") or "Khác")}",{ch.get("name") or "Unknown"}')
+                  out.append(u)
+              else: failed.append({"id":str(ch.get("id","")),"name":ch.get("name"),"status":st})
+          json.dump({"channels":len(channels),"playable":len(good),"failed":len(failed),"items":[{"id":str(c.get("id","")),"name":c.get("name"),"url":u,"status":st} for c,u,st in good],"failed_items":failed},open("fallback_report.json","w",encoding="utf-8"),ensure_ascii=False,indent=2)
+          open("film4k_live_fallback.m3u","w",encoding="utf-8").write("\n".join(out)+"\n")
+          print(json.dumps({"channels":len(channels),"playable":len(good),"failed":len(failed),"VTV1":[x[2:] for x in good if x[0].get("name")=="VTV1"]},ensure_ascii=False))
+          if not any(c.get("name")=="VTV1" for c,u,st in good): raise SystemExit("VTV1 fallback not playable")
+          PY
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: film4k-live-fallback
+          path: |
+            film4k_live_fallback.m3u
+            fallback_report.json
+          if-no-files-found: error
