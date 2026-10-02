@@ -1,0 +1,17 @@
+name: tmp-tv360-api-discovery
+on:
+  push:
+    branches:
+      - tmp/film4k-live-fallback-20261002
+permissions: contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          set -e
+          for u in https://api.tv360.vn/swagger/index.html https://api.tv360.vn/swagger/v1/swagger.json https://api-v2.tv360.vn/swagger/index.html https://api-v2.tv360.vn/swagger/v1/swagger.json https://api.tv360.vn/openapi.json https://api-v2.tv360.vn/openapi.json; do
+            echo "===== $u"
+            curl -L --max-time 10 -A 'Mozilla/5.0' -sS -w '\nHTTP %{http_code} CT %{content_type}\n' "$u" | head -c 5000
+            echo
+          done
