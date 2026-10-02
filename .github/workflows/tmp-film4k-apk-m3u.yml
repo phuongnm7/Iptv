@@ -46,7 +46,7 @@ jobs:
                   "sec-ch-ua-mobile":"?1",
                   "sec-ch-ua-platform":"Android",
               }
-              u,s,ct,h,b=req(candidate+"/api/play-ticket",headers=extra)
+              u,s,ct,h,b=req(candidate+"/api/play-ticket",method="POST",headers={**extra,"Content-Type":"application/json"},data=b"")
               print(f"play-ticket {candidate}: HTTP={s} type={ct!r} len={len(b)}")
               if 200 <= s < 300:
                   BASE=candidate
