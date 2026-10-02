@@ -1,4 +1,4 @@
-name: Temp Film4K Stream Probe
+name: Film4K Sports HLS Matrix
 on:
   push:
     branches:
@@ -7,90 +7,35 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Probe manifests and sports startup chain
+      - name: Probe TV360 sports proxy HLS matrix
         shell: bash
         run: |
           set -u
-          probe() {
-            local name="$1" url="$2"
-            echo "===== $name ====="
-            tmp=$(mktemp)
-            start=$(date +%s%3N)
-            code=$(curl -L --connect-timeout 8 --max-time 18 -A 'TV360/5.6 (Linux;Android 10; K) ExoPlayerLib/2.18.2' -H 'Referer: https://film4k.net/' -H 'Origin: https://film4k.net' -sS -o "$tmp" -w '%{http_code}|%{content_type}|%{url_effective}' "$url" || true)
-            end=$(date +%s%3N)
-            bytes=$(wc -c < "$tmp")
-            first=$(head -c 500 "$tmp" | tr '\n' ' ' | tr -d '\r')
-            echo "META: $code"
-            echo "MS: $((end-start)) BYTES: $bytes"
-            echo "HEAD: $first"
-            if grep -aq '^#EXTM3U\|^#EXT-X-' "$tmp"; then echo "CLASS: HLS_MANIFEST"; else echo "CLASS: NOT_HLS_TEXT"; fi
-            if grep -aq '<MPD\|<mpd' "$tmp"; then echo "CLASS: DASH_MANIFEST"; fi
-            rm -f "$tmp"
-          }
-          probe "prv VTV1 mpd" "https://prv.film4k.net/live/tv360/2/manifest.mpd"
-          probe "prv VTV2 mpd" "https://prv.film4k.net/live/tv360/3/manifest.mpd"
-          probe "prv ANTV mpd" "https://prv.film4k.net/live/tv360/20/manifest.mpd"
-          probe "prv QPVN m3u8" "https://prv.film4k.net/live/tv360/19/manifest.m3u8"
-          probe "film4k ANTS TNT1" "https://film4k.net/api/tv/ants/3/index.m3u8"
-          probe "FPT VTV1" "https://live-a.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8"
-          echo
-          echo "===== SPORTS DEEP CHAIN ====="
           python3 - <<'PY'
           import subprocess,time,urllib.parse
-          chans = [
-            ("TNT Sports 1","https://film4k.net/api/tv/ants/3/index.m3u8"),
-            ("TNT Sports 2","https://film4k.net/api/tv/ants/4/index.m3u8"),
-            ("TNT Sports 3","https://film4k.net/api/tv/ants/5/index.m3u8"),
-            ("TNT Sports 4","https://film4k.net/api/tv/ants/6/index.m3u8"),
-            ("Sky Sports Main Events","https://film4k.net/api/tv/ants/20/index.m3u8"),
-            ("Sky Sports League","https://film4k.net/api/tv/ants/4482/index.m3u8"),
-            ("Sky Sports Action","https://film4k.net/api/tv/ants/16/index.m3u8"),
-            ("Sky Sports Mix","https://film4k.net/api/tv/ants/25/index.m3u8"),
-            ("Sky Sports Arena","https://film4k.net/api/tv/ants/17/index.m3u8"),
-            ("Sky Sports News","https://film4k.net/api/tv/ants/26/index.m3u8"),
-            ("Sky Sports Cricket","https://film4k.net/api/tv/ants/18/index.m3u8"),
-            ("Sky Sports Tennis","https://film4k.net/api/tv/ants/28/index.m3u8"),
-            ("Sky Sports F1","https://film4k.net/api/tv/ants/21/index.m3u8"),
-            ("Sky Sports Golf","https://film4k.net/api/tv/ants/23/index.m3u8"),
-            ("Sky Sports Racing","https://film4k.net/api/tv/ants/27/index.m3u8"),
-            ("Premier Sports 1","https://film4k.net/api/tv/ants/7867/index.m3u8"),
-            ("Premier Sports 2","https://film4k.net/api/tv/ants/7868/index.m3u8"),
-            ("360 Thể Thao Châu Á","https://prv.film4k.net/live/tv360/10017/manifest.mpd"),
-            ("360 Công Thức 1","https://prv.film4k.net/live/tv360/10018/manifest.mpd"),
-            ("360 Bundesliga","https://prv.film4k.net/live/tv360/10019/manifest.mpd"),
-            ("360 Golf","https://prv.film4k.net/live/tv360/10020/manifest.mpd"),
-            ("360 Tennis","https://prv.film4k.net/live/tv360/10021/manifest.mpd"),
-            ("HTV Thể Thao","https://prv.film4k.net/live/tv360/195/manifest.mpd"),
-            ("VTVcab 16 - On Football HD","https://prv.film4k.net/live/tv360/174/manifest.mpd"),
-            ("VTVcab 3 - On Sports","https://prv.film4k.net/live/tv360/173/manifest.mpd"),
-            ("VTVcab 18 - On Sports News","https://prv.film4k.net/live/tv360/170/manifest.mpd"),
-            ("VTVcab 23 - Golf Channel","https://prv.film4k.net/live/tv360/169/manifest.mpd"),
-            ("VTVcab 6 - On Sports +","https://prv.film4k.net/live/tv360/183/manifest.mpd"),
-          ]
+          ids=["10017","10018","10019","10020","10021","195","174","173","170","169","183"]
           UA='TV360/5.6 (Linux;Android 10; K) ExoPlayerLib/2.18.2'
-          H=['-A',UA,'-e','https://film4k.net/','-H','Referer: https://film4k.net/','-H','Origin: https://film4k.net']
-          def fetch(url, seconds=8):
-              t=time.perf_counter()
-              p=subprocess.run(['curl','-L','-sS','--connect-timeout','4','--max-time',str(seconds),*H,'-o','-','-w','\n__META__ %{http_code}|%{content_type}|%{url_effective}',url],capture_output=True,text=True)
-              dt=time.perf_counter()-t
-              out=p.stdout
-              if '\n__META__ ' in out: body,meta=out.rsplit('\n__META__ ',1)
-              else: body,meta=out,''+str(p.returncode)
-              return dt,body,meta,p.stderr
-          for name,url in chans:
-              dt,b,meta,err=fetch(url)
-              print(f'[{name}] MASTER {dt:.3f}s {meta} bytes={len(b)}')
-              if not b or '#EXT-X-STREAM-INF' not in b:
-                  print('  BODY',b[:180].replace('\n',' '))
-                  continue
-              variants=[x.strip() for x in b.splitlines() if x.strip() and not x.startswith('#')]
-              v=urllib.parse.urljoin(url,variants[0])
-              dt2,b2,meta2,err2=fetch(v)
-              print(f'  VARIANT {dt2:.3f}s {meta2} bytes={len(b2)} url={v}')
-              segs=[x.strip() for x in b2.splitlines() if x.strip() and not x.startswith('#')]
-              if segs:
-                  s=urllib.parse.urljoin(v,segs[-1])
-                  dt3,b3,meta3,err3=fetch(s,10)
-                  print(f'  SEGMENT {dt3:.3f}s {meta3} bytes={len(b3)} url={s}')
-                  if err3: print('  SEG_ERR',err3[:160])
+          def fetch(url):
+            t=time.perf_counter()
+            p=subprocess.run(['curl','-k','-L','-sS','--connect-timeout','5','--max-time','12','-A',UA,'-H','Referer: https://film4k.net/','-H','Origin: https://film4k.net','-o','-','-w','\n__META__ %{http_code}|%{content_type}|%{url_effective}|%{size_download}',url],capture_output=True)
+            dt=time.perf_counter()-t
+            out=p.stdout
+            mark=b'\n__META__ '
+            if mark in out:
+              body,meta=out.rsplit(mark,1)
+              meta=meta.decode('utf-8','replace')
+            else:
+              body,meta=out.decode('utf-8','replace'),f'rc={p.returncode}'
+            return dt,body,meta,p.stderr.decode('utf-8','replace')
+          for i in ids:
+            for ext in ["mpd","m3u8"]:
+              u=f"https://prv.film4k.net/live/tv360/{i}/manifest.{ext}"
+              dt,b,m,e=fetch(u)
+              if b:
+                head=b[:1400].replace('\r',' ').replace('\n',' ')
+                # Print exact first URI / variant marker.
+                uri=[x.strip() for x in b.split() if x.strip() and not x.startswith('#')][:2]
+              else: uri=[]
+              print(f"{i} {ext} {dt:.3f}s {m} head={head[:500]}")
+              if uri: print("  URIS",uri)
           PY
