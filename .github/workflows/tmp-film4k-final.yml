@@ -1,0 +1,90 @@
+name: tmp-film4k-final
+
+on:
+  push:
+    branches:
+      - tmp/film4k-proxy-20261002
+
+permissions:
+  contents: read
+
+jobs:
+  final:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build final corrected M3U
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, urllib.request, ssl, concurrent.futures
+          SRC="https://raw.githubusercontent.com/Gicnycjgfg/film4k-tv/main/film4k_tv.json"
+          with urllib.request.urlopen(urllib.request.Request(SRC,headers={"User-Agent":"Mozilla/5.0"}),timeout=30,context=ssl.create_default_context()) as r:
+              data=json.load(r)
+          channels=data["channels"]
+          hdr={"User-Agent":"Mozilla/5.0 (Linux; Android 14; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36","Referer":"https://film4k.net/","Origin":"https://film4k.net","Accept":"*/*","Accept-Language":"vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7"}
+          def probe(item):
+              idx,ch=item
+              cid=str(ch.get("id",""))
+              candidates=[]
+              if cid.startswith("ants:"):
+                  n=cid.split(":",1)[1]
+                  candidates=[f"https://prv.film4k.net/live/ants/{n}/manifest.mpd",f"https://prv.film4k.net/live/ants/{n}/index.m3u8",f"https://film4k.net/api/tv/ants/{n}/index.m3u8"]
+              elif cid.isdigit():
+                  candidates=[f"https://prv.film4k.net/live/tv360/{cid}/manifest.mpd",ch.get("url") or ch.get("streamUrl") or ""]
+              else:
+                  candidates=[ch.get("url") or ch.get("streamUrl") or ""]
+              last="NO_URL"
+              for u in candidates:
+                  if not u: continue
+                  try:
+                      rr=urllib.request.Request(u,headers=hdr)
+                      with urllib.request.urlopen(rr,timeout=8,context=ssl.create_default_context()) as r:
+                          ct=r.headers.get("content-type","")
+                          body=r.read(4096)
+                          sample=body.decode("utf-8","replace").lstrip()
+                          good=r.status<400 and ("m3u" in ct.lower() or "dash+xml" in ct.lower() or sample.startswith(("#EXTM3U","<?xml","<MPD","{")))
+                          if good: return idx,ch,u,ct
+                          last=f"HTTP{r.status}/{ct}"
+                  except Exception as e:
+                      last=type(e).__name__+":"+str(getattr(e,"code",""))
+              return idx,ch,None,last
+          with concurrent.futures.ThreadPoolExecutor(max_workers=30) as ex:
+              results=list(ex.map(probe,enumerate(channels,1)))
+          results.sort()
+          byid={str(ch.get("id","")):(ch,url,ct) for _,ch,url,ct in results}
+          def esc(s): return str(s).replace("&","&amp;").replace('"',"&quot;")
+          full=["#EXTM3U","#PLAYLIST:Film4k TV - 198 channels (corrected)"]
+          verified=["#EXTM3U","#PLAYLIST:Film4k TV - verified manifest channels"]
+          ok=0
+          failures=[]
+          for _,ch,url,ct in results:
+              cid=str(ch.get("id","")); name=str(ch.get("name") or "Unknown")
+              group=str(ch.get("group") or "Khác"); logo=str(ch.get("logo") or "")
+              original=ch.get("url") or ch.get("streamUrl") or ""
+              chosen=url or original
+              line=f'#EXTINF:-1 tvg-id="{esc(cid)}" tvg-name="{esc(name)}" tvg-logo="{esc(logo)}" group-title="{esc(group)}",{name}'
+              extras=[]
+              if chosen.lower().split("?",1)[0].endswith(".mpd") and isinstance(ch.get("clearKey"),dict) and ch["clearKey"].get("keyId") and ch["clearKey"].get("key"):
+                  extras=["#KODIPROP:inputstreamaddon=inputstream.adaptive","#KODIPROP:inputstream.adaptive.manifest_type=dash","#KODIPROP:inputstream.adaptive.license_type=clearkey",f'#KODIPROP:inputstream.adaptive.license_key={ch["clearKey"]["keyId"]}:{ch["clearKey"]["key"]}']
+              if chosen.startswith("https://film4k.net/"):
+                  extras.append("#EXTVLCOPT:http-referrer=https://film4k.net/")
+              full += [line,*extras,chosen]
+              if url:
+                  verified += [line,*extras,url]; ok+=1
+              else:
+                  failures.append({"id":cid,"name":name,"fallback":original,"status":ct})
+          open("film4k_channels_198_corrected.m3u","w",encoding="utf-8").write("\n".join(full)+"\n")
+          open("film4k_channels_verified.m3u","w",encoding="utf-8").write("\n".join(verified)+"\n")
+          json.dump({"source_generated":data.get("generated"),"channels":len(channels),"verified_manifest":ok,"fallback":len(failures),"fallback_items":failures},open("film4k_final_report.json","w",encoding="utf-8"),ensure_ascii=False,indent=2)
+          print(json.dumps({"source_generated":data.get("generated"),"channels":len(channels),"verified_manifest":ok,"fallback":len(failures)},ensure_ascii=False))
+          if ok == 0: raise SystemExit("No verified streams")
+          PY
+      - name: Upload final playlists
+        uses: actions/upload-artifact@v4
+        with:
+          name: film4k-final-m3u
+          path: |
+            film4k_channels_198_corrected.m3u
+            film4k_channels_verified.m3u
+            film4k_final_report.json
+          if-no-files-found: error
