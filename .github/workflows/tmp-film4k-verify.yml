@@ -22,7 +22,7 @@ jobs:
           with urllib.request.urlopen(req,timeout=30,context=ssl.create_default_context()) as r:
               data=json.load(r)
           channels=data if isinstance(data,list) else data.get("channels",[])
-          headers={"User-Agent":"Mozilla/5.0 (Linux; Android 14; Mobile) AppleWebKit/537.36 Chrome/124.0 Safari/537.36","Accept":"*/*"}
+          headers={"User-Agent":"Mozilla/5.0 (Linux; Android 14; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36","Accept":"*/*","Referer":"https://film4k.net/","Origin":"https://film4k.net","X-Requested-With":"XMLHttpRequest","Accept-Language":"vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7"}
           def probe(ch):
               url=ch.get("url") or ch.get("streamUrl")
               if not url: return (str(ch.get("id","")), "NO_URL", False)
@@ -35,7 +35,7 @@ jobs:
                       good=(r.status<400) and (("m3u" in ct.lower()) or ("dash+xml" in ct.lower()) or sample.lstrip().startswith(("#EXTM3U","<?xml","<MPD","{")))
                       return (str(ch.get("id","")), f"HTTP{r.status}_{ct}", good)
               except Exception as e:
-                  return (str(ch.get("id","")), type(e).__name__, False)
+                  return (str(ch.get("id","")), f"{type(e).__name__}:{getattr(e, \"code\", \"\")}", False)
           with concurrent.futures.ThreadPoolExecutor(max_workers=20) as ex:
               results=list(ex.map(probe,channels))
           status_by_id={x[0]:(x[1],x[2]) for x in results}
