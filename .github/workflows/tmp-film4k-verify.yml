@@ -35,7 +35,7 @@ jobs:
                       good=(r.status<400) and (("m3u" in ct.lower()) or ("dash+xml" in ct.lower()) or sample.lstrip().startswith(("#EXTM3U","<?xml","<MPD","{")))
                       return (str(ch.get("id","")), f"HTTP{r.status}_{ct}", good)
               except Exception as e:
-                  return (str(ch.get("id","")), f"{type(e).__name__}:{getattr(e, \"code\", \"\")}", False)
+                  return (str(ch.get("id","")), str(type(e).__name__) + ":" + str(getattr(e, "code", "")), False)
           with concurrent.futures.ThreadPoolExecutor(max_workers=20) as ex:
               results=list(ex.map(probe,channels))
           status_by_id={x[0]:(x[1],x[2]) for x in results}
