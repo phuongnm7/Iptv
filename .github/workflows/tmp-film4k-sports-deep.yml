@@ -1,0 +1,78 @@
+name: Film4K Sports Deep Probe
+on:
+  push:
+    branches:
+      - tmp/film4k-all-streams-fix-20261002
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deep probe sports streams
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import re,subprocess,time,urllib.parse
+          chans = [
+            ("TNT Sports 1","https://film4k.net/api/tv/ants/3/index.m3u8"),
+            ("TNT Sports 2","https://film4k.net/api/tv/ants/4/index.m3u8"),
+            ("TNT Sports 3","https://film4k.net/api/tv/ants/5/index.m3u8"),
+            ("TNT Sports 4","https://film4k.net/api/tv/ants/6/index.m3u8"),
+            ("Sky Sports Main Events","https://film4k.net/api/tv/ants/20/index.m3u8"),
+            ("Sky Sports League","https://film4k.net/api/tv/ants/4482/index.m3u8"),
+            ("Sky Sports Action","https://film4k.net/api/tv/ants/16/index.m3u8"),
+            ("Sky Sports Mix","https://film4k.net/api/tv/ants/25/index.m3u8"),
+            ("Sky Sports Arena","https://film4k.net/api/tv/ants/17/index.m3u8"),
+            ("Sky Sports News","https://film4k.net/api/tv/ants/26/index.m3u8"),
+            ("Sky Sports Cricket","https://film4k.net/api/tv/ants/18/index.m3u8"),
+            ("Sky Sports Tennis","https://film4k.net/api/tv/ants/28/index.m3u8"),
+            ("Sky Sports F1","https://film4k.net/api/tv/ants/21/index.m3u8"),
+            ("Sky Sports Golf","https://film4k.net/api/tv/ants/23/index.m3u8"),
+            ("Sky Sports Racing","https://film4k.net/api/tv/ants/27/index.m3u8"),
+            ("Premier Sports 1","https://film4k.net/api/tv/ants/7867/index.m3u8"),
+            ("Premier Sports 2","https://film4k.net/api/tv/ants/7868/index.m3u8"),
+            ("360 Thể Thao Châu Á","https://prv.film4k.net/live/tv360/10017/manifest.mpd"),
+            ("360 Công Thức 1","https://prv.film4k.net/live/tv360/10018/manifest.mpd"),
+            ("360 Bundesliga","https://prv.film4k.net/live/tv360/10019/manifest.mpd"),
+            ("360 Golf","https://prv.film4k.net/live/tv360/10020/manifest.mpd"),
+            ("360 Tennis","https://prv.film4k.net/live/tv360/10021/manifest.mpd"),
+            ("HTV Thể Thao","https://prv.film4k.net/live/tv360/195/manifest.mpd"),
+            ("VTVcab 16 - On Football HD","https://prv.film4k.net/live/tv360/174/manifest.mpd"),
+            ("VTVcab 3 - On Sports","https://prv.film4k.net/live/tv360/173/manifest.mpd"),
+            ("VTVcab 18 - On Sports News","https://prv.film4k.net/live/tv360/170/manifest.mpd"),
+            ("VTVcab 23 - Golf Channel","https://prv.film4k.net/live/tv360/169/manifest.mpd"),
+            ("VTVcab 6 - On Sports +","https://prv.film4k.net/live/tv360/183/manifest.mpd"),
+          ]
+          UA='TV360/5.6 (Linux;Android 10; K) ExoPlayerLib/2.18.2'
+          H=['-A',UA,'-e','https://film4k.net/','-H','Referer: https://film4k.net/','-H','Origin: https://film4k.net']
+          def get(url,limit=12):
+            t=time.perf_counter(); 
+            p=subprocess.run(['curl','-L','-sS','--connect-timeout','5','--max-time',str(limit),*H,'-o','-','-w','\n__META__ %{http_code}|%{content_type}|%{url_effective}'],capture_output=True,text=True)
+            out=p.stdout; 
+            if '\n__META__ ' in out: body,meta=out.rsplit('\n__META__ ',1)
+            else: body,meta=out,str(p.returncode)
+            return time.perf_counter()-t,body,meta,p.stderr.strip()
+          def child(base,rel): return urllib.parse.urljoin(base,rel)
+          for name,url in chans:
+            print('\n===== '+name+' =====')
+            dt,b,meta,err=get(url)
+            print('MASTER',round(dt,3),meta,'bytes',len(b))
+            if not b: print('ERR',err[:300]); continue
+            if url.endswith('index.m3u8') and 'film4k.net/api/tv/ants/' in url:
+              print('ANT_SOURCE_BODY',b[:220].replace('\n',' '))
+              continue
+            if '#EXT-X-STREAM-INF' not in b:
+              print('NO_MASTER_VARIANTS',b[:400].replace('\n',' ')); continue
+            # first variant URI after EXT-X-STREAM-INF
+            lines=[x.strip() for x in b.splitlines() if x.strip() and not x.startswith('#')]
+            if not lines: print('NO_VARIANT_URI'); continue
+            v=child(url,lines[0])
+            dt2,b2,meta2,err2=get(v)
+            print('VARIANT',round(dt2,3),meta2,'bytes',len(b2),'url',v)
+            segs=[x.strip() for x in b2.splitlines() if x.strip() and not x.startswith('#')]
+            if segs:
+              s=child(v,segs[0])
+              dt3,b3,meta3,err3=get(s,10)
+              print('SEGMENT',round(dt3,3),meta3,'bytes',len(b3),'url',s)
+            else:
+              print('NO_SEGMENT_URI')
+          PY
