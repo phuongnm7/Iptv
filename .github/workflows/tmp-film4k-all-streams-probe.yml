@@ -12,30 +12,23 @@ jobs:
         run: |
           set -u
           python3 - <<'PY'
-          import subprocess,time,urllib.parse
+          import subprocess,time,re
           ids=["10017","10018","10019","10020","10021","195","174","173","170","169","183"]
           UA='TV360/5.6 (Linux;Android 10; K) ExoPlayerLib/2.18.2'
           def fetch(url):
             t=time.perf_counter()
             p=subprocess.run(['curl','-k','-L','-sS','--connect-timeout','5','--max-time','12','-A',UA,'-H','Referer: https://film4k.net/','-H','Origin: https://film4k.net','-o','-','-w','\n__META__ %{http_code}|%{content_type}|%{url_effective}|%{size_download}',url],capture_output=True)
             dt=time.perf_counter()-t
-            out=p.stdout
-            mark=b'\n__META__ '
-            if mark in out:
-              body,meta=out.rsplit(mark,1)
-              meta=meta.decode('utf-8','replace')
-            else:
-              body,meta=out.decode('utf-8','replace'),f'rc={p.returncode}'
+            raw=p.stdout
+            marker=b'\n__META__ '
+            if marker in raw: body,meta=raw.rsplit(marker,1); meta=meta.decode('utf-8','replace')
+            else: body,meta=raw,f'rc={p.returncode}'
             return dt,body,meta,p.stderr.decode('utf-8','replace')
           for i in ids:
             for ext in ["mpd","m3u8"]:
               u=f"https://prv.film4k.net/live/tv360/{i}/manifest.{ext}"
               dt,b,m,e=fetch(u)
-              if b:
-                head=b[:1400].replace('\r',' ').replace('\n',' ')
-                # Print exact first URI / variant marker.
-                uri=[x.strip() for x in b.split() if x.strip() and not x.startswith('#')][:2]
-              else: uri=[]
-              print(f"{i} {ext} {dt:.3f}s {m} head={head[:500]}")
-              if uri: print("  URIS",uri)
+              head=b[:1400].decode('utf-8','replace').replace('\r',' ').replace('\n',' ')
+              print(f"{i} {ext} {dt:.3f}s {m} text={head[:500]}")
+              if e: print("  ERR",e[:250])
           PY
