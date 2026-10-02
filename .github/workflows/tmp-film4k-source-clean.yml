@@ -1,0 +1,96 @@
+name: tmp-film4k-source-clean
+
+on:
+  push:
+    branches:
+      - tmp/film4k-source-clean-20261002
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate original source URLs and build clean M3U
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, urllib.request, ssl, concurrent.futures, re
+          SRC="https://raw.githubusercontent.com/Gicnycjgfg/film4k-tv/main/film4k_tv.json"
+          with urllib.request.urlopen(urllib.request.Request(SRC,headers={"User-Agent":"Mozilla/5.0"}),timeout=30,context=ssl.create_default_context()) as r:
+              data=json.load(r)
+          channels=data["channels"]
+          H={
+            "User-Agent":"Mozilla/5.0 (Linux; Android 14; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Accept":"*/*",
+            "Referer":"https://film4k.net/",
+            "Origin":"https://film4k.net",
+            "Accept-Language":"vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7"
+          }
+          def probe(item):
+              i,ch=item; u=ch.get("streamUrl") or ch.get("url") or ""
+              if not u: return i,"NO_URL",False,""
+              try:
+                  rr=urllib.request.Request(u,headers=H)
+                  with urllib.request.urlopen(rr,timeout=12,context=ssl.create_default_context()) as r:
+                      ct=(r.headers.get("content-type") or "").lower()
+                      body=r.read(8192)
+                      s=body.decode("utf-8","replace").lstrip("\ufeff \r\n\t")
+                      if ".m3u8" in u.lower() or "#extm3u" in s.lower() or "mpegurl" in ct:
+                          good=s.startswith("#EXTM3U") or "mpegurl" in ct
+                          kind="HLS"
+                      elif ".mpd" in u.lower() or "dash+xml" in ct or s.startswith("<MPD"):
+                          good=s.startswith("<?xml") or s.startswith("<MPD") or "dash+xml" in ct
+                          kind="DASH"
+                      else:
+                          good=False; kind="OTHER"
+                      return i,f"HTTP{r.status}/{ct}/{kind}",good,s[:120].replace("\n"," ")
+              except Exception as e:
+                  return i,type(e).__name__+":"+str(getattr(e,"code","")),False,""
+          with concurrent.futures.ThreadPoolExecutor(max_workers=30) as ex:
+              results=list(ex.map(probe,enumerate(channels,1)))
+          results.sort()
+          by_i={i:(st,good,sample) for i,st,good,sample in results}
+          def esc(s): return str(s).replace("&","&amp;").replace('"',"&quot;")
+          out=["#EXTM3U","#PLAYLIST:Film4k TV - clean original sources"]
+          verified=[]; failed=[]
+          for i,ch in enumerate(channels,1):
+              u=ch.get("streamUrl") or ch.get("url") or ""
+              st,good,sample=by_i[i]
+              name=str(ch.get("name") or "Unknown"); cid=str(ch.get("id",""))
+              logo=str(ch.get("logo") or ""); group=str(ch.get("group") or "Khác")
+              line=f'#EXTINF:-1 tvg-id="{esc(cid)}" tvg-name="{esc(name)}" tvg-logo="{esc(logo)}" group-title="{esc(group)}",{name}'
+              if not u:
+                  failed.append({"id":cid,"name":name,"status":st}); continue
+              if good: verified.append({"id":cid,"name":name,"url":u,"status":st})
+              else: failed.append({"id":cid,"name":name,"url":u,"status":st,"sample":sample})
+              out.append(line)
+              low=u.lower().split("?",1)[0]
+              # Only add DASH/KODI metadata when the ORIGINAL URL was actually validated as DASH.
+              if good and "DASH" in st:
+                  out += ["#KODIPROP:inputstreamaddon=inputstream.adaptive","#KODIPROP:inputstream.adaptive.manifest_type=dash"]
+                  ck=ch.get("clearKey")
+                  if isinstance(ck,dict) and ck.get("keyId") and ck.get("key"):
+                      out += ["#KODIPROP:inputstream.adaptive.license_type=clearkey",f'#KODIPROP:inputstream.adaptive.license_key={ck["keyId"]}:{ck["key"]}']
+              out.append(u)
+          open("film4k_198_source_clean.m3u","w",encoding="utf-8").write("\n".join(out)+"\n")
+          open("film4k_verified_source_only.m3u","w",encoding="utf-8").write(
+              "#EXTM3U\n"+ "\n".join(
+                [f'#EXTINF:-1 tvg-id="{esc(ch.get("id",""))}" tvg-name="{esc(ch.get("name") or "Unknown")}" tvg-logo="{esc(ch.get("logo") or "")}" group-title="{esc(ch.get("group") or "Khác")}",{ch.get("name") or "Unknown"}\n{ch.get("streamUrl") or ch.get("url") or ""}'
+                 for i,ch in enumerate(channels,1) if by_i[i][1]]
+              )+"\n")
+          report={"source_generated":data.get("generated"),"channels":len(channels),"verified":len(verified),"failed":len(failed),"failed_items":failed}
+          json.dump(report,open("film4k_source_report.json","w",encoding="utf-8"),ensure_ascii=False,indent=2)
+          print(json.dumps({"source_generated":data.get("generated"),"channels":len(channels),"verified":len(verified),"failed":len(failed),"VTV1":by_i.get(next((i for i,c in enumerate(channels,1) if c.get("name")=="VTV1"),-1))},ensure_ascii=False))
+          if not any(x["name"]=="VTV1" for x in verified): raise SystemExit("VTV1 original source did not validate")
+          PY
+      - name: Upload clean M3U
+        uses: actions/upload-artifact@v4
+        with:
+          name: film4k-source-clean
+          path: |
+            film4k_198_source_clean.m3u
+            film4k_verified_source_only.m3u
+            film4k_source_report.json
+          if-no-files-found: error
