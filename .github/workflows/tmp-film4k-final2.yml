@@ -64,8 +64,11 @@ jobs:
               chosen=url or original
               line=f'#EXTINF:-1 tvg-id="{esc(cid)}" tvg-name="{esc(name)}" tvg-logo="{esc(logo)}" group-title="{esc(group)}",{name}'
               extras=[]
-              if chosen.lower().split("?",1)[0].endswith(".mpd") and isinstance(ch.get("clearKey"),dict) and ch["clearKey"].get("keyId") and ch["clearKey"].get("key"):
-                  extras=["#KODIPROP:inputstreamaddon=inputstream.adaptive","#KODIPROP:inputstream.adaptive.manifest_type=dash","#KODIPROP:inputstream.adaptive.license_type=clearkey",f'#KODIPROP:inputstream.adaptive.license_key={ch["clearKey"]["keyId"]}:{ch["clearKey"]["key"]}']
+              selected_dash = bool(url and "dash+xml" in str(ct).lower()) or (not url and chosen.lower().split("?",1)[0].endswith(".mpd"))
+              if selected_dash:
+                  extras=["#KODIPROP:inputstreamaddon=inputstream.adaptive","#KODIPROP:inputstream.adaptive.manifest_type=dash"]
+                  if isinstance(ch.get("clearKey"),dict) and ch["clearKey"].get("keyId") and ch["clearKey"].get("key"):
+                      extras += ["#KODIPROP:inputstream.adaptive.license_type=clearkey", "#KODIPROP:inputstream.adaptive.license_key=" + str(ch["clearKey"]["keyId"]) + ":" + str(ch["clearKey"]["key"])]
               if chosen.startswith("https://film4k.net/"):
                   extras.append("#EXTVLCOPT:http-referrer=https://film4k.net/")
               full += [line,*extras,chosen]
