@@ -1,0 +1,88 @@
+name: tmp-film4k-proxy-probe
+
+on:
+  push:
+    branches:
+      - tmp/film4k-proxy-20261002
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe stable Film4k proxy candidates
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, urllib.request, ssl, concurrent.futures, collections
+          SRC="https://raw.githubusercontent.com/Gicnycjgfg/film4k-tv/main/film4k_tv.json"
+          with urllib.request.urlopen(urllib.request.Request(SRC,headers={"User-Agent":"Mozilla/5.0"}),timeout=30,context=ssl.create_default_context()) as r:
+              data=json.load(r)
+          channels=data["channels"]
+          def probe(item):
+              idx,ch=item
+              cid=str(ch.get("id",""))
+              candidates=[]
+              if cid.startswith("ants:"):
+                  n=cid.split(":",1)[1]
+                  candidates=[
+                    f"https://prv.film4k.net/live/ants/{n}/manifest.mpd",
+                    f"https://prv.film4k.net/live/ants/{n}/index.m3u8",
+                    f"https://film4k.net/api/tv/ants/{n}/index.m3u8"
+                  ]
+              elif cid.isdigit():
+                  candidates=[
+                    f"https://prv.film4k.net/live/tv360/{cid}/manifest.mpd",
+                    ch.get("url") or ch.get("streamUrl") or ""
+                  ]
+              else:
+                  candidates=[ch.get("url") or ch.get("streamUrl") or ""]
+              hdr={"User-Agent":"Mozilla/5.0 (Linux; Android 14; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36","Referer":"https://film4k.net/","Origin":"https://film4k.net","Accept":"*/*"}
+              tested=[]
+              for u in candidates:
+                  if not u or u in tested: continue
+                  tested.append(u)
+                  try:
+                      rr=urllib.request.Request(u,headers=hdr)
+                      with urllib.request.urlopen(rr,timeout=8,context=ssl.create_default_context()) as r:
+                          body=r.read(4096)
+                          sample=body.decode("utf-8","replace").lstrip()
+                          ct=r.headers.get("content-type","")
+                          good=r.status<400 and ("m3u" in ct.lower() or "dash+xml" in ct.lower() or sample.startswith(("#EXTM3U","<?xml","<MPD","{")))
+                          if good:
+                              return idx,ch,u,"OK"+str(r.status)+"/"+ct
+                          tested_status="HTTP"+str(r.status)+"/"+ct
+                  except Exception as e:
+                      tested_status=type(e).__name__+":"+str(getattr(e,"code",""))
+              return idx,ch,None,tested_status
+          results=[]
+          with concurrent.futures.ThreadPoolExecutor(max_workers=30) as ex:
+              for x in ex.map(probe,enumerate(channels,1)): results.append(x)
+          results.sort()
+          ok=[r for r in results if r[2]]
+          report=[{"index":i,"id":ch["id"],"name":ch["name"],"url":u,"status":st} for i,ch,u,st in results]
+          json.dump({"source_generated":data.get("generated"),"channels":len(channels),"ok":len(ok),"results":report},open("film4k_proxy_report.json","w",encoding="utf-8"),ensure_ascii=False,indent=2)
+          out=["#EXTM3U"]
+          def esc(s): return str(s).replace("&","&amp;").replace('"',"&quot;")
+          for i,ch,u,st in ok:
+              out.append(f'#EXTINF:-1 tvg-id="{esc(ch.get("id",""))}" tvg-name="{esc(ch.get("name") or "Unknown")}" tvg-logo="{esc(ch.get("logo") or "")}" group-title="{esc(ch.get("group") or "Khác")}",{ch.get("name") or "Unknown"}')
+              if u.lower().split("?",1)[0].endswith(".mpd"):
+                  out += ["#KODIPROP:inputstreamaddon=inputstream.adaptive","#KODIPROP:inputstream.adaptive.manifest_type=dash"]
+                  ck=ch.get("clearKey")
+                  if isinstance(ck,dict) and ck.get("keyId") and ck.get("key"):
+                      out += ["#KODIPROP:inputstream.adaptive.license_type=clearkey",f"#KODIPROP:inputstream.adaptive.license_key={ck['keyId']}:{ck['key']}"]
+              out.append(u)
+          open("film4k_proxy_verified.m3u","w",encoding="utf-8").write("\n".join(out)+"\n")
+          print(json.dumps({"channels":len(channels),"ok":len(ok),"failed":len(channels)-len(ok),"source_generated":data.get("generated")},ensure_ascii=False))
+          if not ok: raise SystemExit("No candidate proxy streams verified")
+          PY
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: film4k-proxy-verified
+          path: |
+            film4k_proxy_verified.m3u
+            film4k_proxy_report.json
+          if-no-files-found: error
