@@ -1240,17 +1240,17 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1033736.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="FR - BARCELONA - GETAFE 17:30 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - BARCELONA - GETAFE 17:30 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1033737.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FR - BARCELONA - GETAFE 17:30 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - BARCELONA - GETAFE 17:30 CET
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1033738.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FR - BARCELONA - GETAFE 17:30 CET [BK]" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - BARCELONA - GETAFE 17:30 CET [BK]
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1033737.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="FR - REAL MADRID - VILLARREAL 20:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - REAL MADRID - VILLARREAL 20:00 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015822.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - REAL MADRID - VILLARREAL 20:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - REAL MADRID - VILLARREAL 20:00 CET
+#EXTINF:-1 tvg-id="" tvg-name="FR - REAL MADRID - VILLARREAL 20:00 CET [BK]" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - REAL MADRID - VILLARREAL 20:00 CET [BK]
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015821.ts
 
