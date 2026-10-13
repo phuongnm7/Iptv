@@ -814,6 +814,10 @@ http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:0E:0F:8E&stream=13132
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1296611.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="FR - MULTI SCREEN FHD" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",FR - MULTI SCREEN FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
+http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/362559.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="FR - LENS VS SPORTING CP 17:45 CET" tvg-logo="https://go4.pw/champ/champions.png" group-title="VIP | UEFA CHAMPIONS LEAGUE",FR - LENS VS SPORTING CP 17:45 CET
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1150141.ts
