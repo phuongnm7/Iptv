@@ -1230,7 +1230,7 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1024113.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015817.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR - LEVANTE - SEVILLA 20:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - LEVANTE - SEVILLA 20:00 CET
+#EXTINF:-1 tvg-id="" tvg-name="FR - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",FR - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1117244.ts
 
@@ -1274,7 +1274,7 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015823.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015824.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EN - LEVANTE - SEVILLA 20:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",EN - LEVANTE - SEVILLA 20:00 CET
+#EXTINF:-1 tvg-id="" tvg-name="EN - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",EN - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1117243.ts
 
@@ -1322,7 +1322,7 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1001780.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1015831.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR - LEVANTE - SEVILLA 20:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",AR - LEVANTE - SEVILLA 20:00 CET
+#EXTINF:-1 tvg-id="" tvg-name="AR -  NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",AR -  NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1100782.ts
 
@@ -1366,7 +1366,7 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1001784.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1033317.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ES - LEVANTE - SEVILLA 20:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ES - LEVANTE - SEVILLA 20:00 CET
+#EXTINF:-1 tvg-id="" tvg-name="ES - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ES - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1117245.ts
 
@@ -1410,7 +1410,7 @@ http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1033355.ts
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1145824.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ALB - LEVANTE - SEVILLA 20:00 CET" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ALB - LEVANTE - SEVILLA 20:00 CET
+#EXTINF:-1 tvg-id="" tvg-name="ALB - NO MATCH" tvg-logo="https://go4.pw/58.png" group-title="VIP | LA LIGA",ALB - NO MATCH
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://raztv.online:80/live/6385M64B7Z4NZ2Y/culxGxFhhe/1145838.ts
 
