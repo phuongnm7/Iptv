@@ -1,7 +1,13 @@
 const SOURCES = [
   {
     url: 'https://raw.githubusercontent.com/dungntk9/Iptv/main/SuperOK_playlist.m3u',
-    groups: new Set(['VTV', 'VTVcab', 'SCTV', 'HTV', 'Sự Kiện FPT PLAY', 'Thiết yếu', '🇸🇬 Mediacorp', '🌟SPORTS VIP🌟'])
+    groups: new Set([
+      'VTV', 'VTVcab', 'SCTV', 'HTV', 'HTVC', 'Quốc Tế', 'Thiết yếu',
+      '🌟VTV & VTVCab🌟', '🌟SCTV🌟', '🌟HTV🌟', '🌟Kênh Quốc Tế🌟',
+      '🌟Địa Phương🌟', '🌟Hoạt Hình🌟', '🌟VIP MOVIE🌟',
+      '🌟SPORTS VIP🌟', '🌟SPORTS XTREAM🌟', '⚽ LIVE SPORTS', 'UK SPORTS', 'UK sport',
+      'Sự Kiện FPT PLAY', '🇸🇬 Mediacorp'
+    ])
   },
   {
     url: 'https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/vmttv',
@@ -26,7 +32,7 @@ const SOURCES = [
 
 function groupOf(extinf) {
   const m = extinf.match(/group-title="([^"]*)"/i);
-  return m ? m[1].replace(/\\u00a0/g, ' ').trim() : '';
+  return m ? m[1].replace(/\u00a0/g, ' ').replace(/\\u00a0/g, ' ').trim() : '';
 }
 
 function entries(text) {
