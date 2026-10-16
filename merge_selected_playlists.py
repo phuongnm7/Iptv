@@ -1,15 +1,11 @@
-#!/usr/bin/env python3
-import re
-import urllib.request
-
 SOURCES = [
-    ("https://raw.githubusercontent.com/dungntk9/Iptv/main/SuperOK_playlist.m3u", {
-        "VTV", "VTVcab", "HTV", "HTVC", "SCTV", "Quốc Tế", "Thiết yếu",
-        "🌟VTV & VTVCab🌟", "🌟SCTV🌟", "🌟HTV🌟", "🌟Kênh Quốc Tế🌟",
-        "🌟Địa Phương🌟", "🌟Hoạt Hình🌟", "🌟VIP MOVIE🌟",
-        "🌟SPORTS VIP🌟", "🌟SPORTS XTREAM🌟", "⚽ LIVE SPORTS",
-        "UK SPORTS", "UK sport", "Sự Kiện FPT PLAY", "🇸🇬 Mediacorp"
+    ("https://raw.githubusercontent.com/dungntk9/Iptv-phuongnm7/main/generated/vapptv-live.m3u", {
+        "Thể Thao", "Phim Truyện", "Thiếu Nhi", "Âm Nhạc", "Khám Phá", "Tin Tức",
+        "VTV", "VTVCab", "SCTV", "HTV - TP.HCM", "THVL", "Quốc Tế", "Sự Kiện",
+        "Địa Phương", "Miền Trung", "Miền Nam", "Miền Bắc",
+        "Radio Miền Trung", "Radio Miền Bắc", "Radio VOV", "Radio VOH", "Radio Miền Nam"
     }),
+    ("https://raw.githubusercontent.com/dungntk9/Iptv-phuongnm7/main/IPTV_Gop_VMTTV_vAppTV.m3u", {"Sự Kiện FPT PLAY"}),
     ("https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/vmttv", {"Sự Kiện TV360"}),
     ("https://raw.githubusercontent.com/dungntk9/Iptv-phuongnm7/main/sports-auto.m3u", {
         "Giờ Vàng TV", "Gà Vàng 33 TV", "Xôi Lạc Z TV", "Gà Vàng TV",
@@ -31,7 +27,7 @@ def fetch(url):
 
 def group_of(extinf):
     m = re.search(r'group-title="([^"]*)"', extinf, flags=re.I)
-    return m.group(1).replace("\\u00a0", " ").replace("\\\\u00a0", " ").strip() if m else ""
+    return m.group(1).replace("\u00a0", " ").replace("\\u00a0", " ").strip() if m else ""
 
 def entries(text):
     lines = text.replace("\r\n", "\n").replace("\r", "\n").splitlines()
