@@ -14,8 +14,13 @@ const SOURCES = [
     groups: new Set(['Sự Kiện TV360'])
   },
   {
-    url: 'https://tinyurl.com/ttthethao2',
-    groups: new Set(['Giờ Vàng TV', 'Gà Vàng 33 TV', 'Xôi Lạc Z TV', 'Gà Vàng TV'])
+    url: 'https://raw.githubusercontent.com/dungntk9/Iptv-phuongnm7/main/sports-auto.m3u',
+    groups: new Set([
+      'Giờ Vàng TV', 'Gà Vàng 33 TV', 'Xôi Lạc Z TV', 'Gà Vàng TV',
+      'Vua Sân Cỏ TV', 'Khán Đài TV', 'Cola TV', 'Gà Vàng 24h TV',
+      'S8 TV', 'Sao Kê TV', 'Bia Ôm TV', 'Chuối Chiên TV',
+      'Sút Bóng TV', 'Phá Làng TV', 'Xôi Gấc TV', 'Socolive TV'
+    ])
   },
   {
     url: 'https://raw.githubusercontent.com/dungntk9/Iptv-phuongnm7/main/VIP-307.m3u',
