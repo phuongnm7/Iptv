@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+import re
+import urllib.request
+
 SOURCES = [
     ("https://raw.githubusercontent.com/dungntk9/Iptv-phuongnm7/main/generated/vapptv-live.m3u", {
         "Thể Thao", "Phim Truyện", "Thiếu Nhi", "Âm Nhạc", "Khám Phá", "Tin Tức",
@@ -61,7 +65,7 @@ def main():
             source_errors.append(f"{url}: {exc}")
     if not selected:
         raise SystemExit("No matching channels were found. Sources: " + "; ".join(source_errors))
-    out = ['#EXTM3U x-tvg-url=""', '#PLAYLIST: PhuongNM7 - Selected IPTV', '# This playlist is generated automatically from the configured source playlists.']
+    out = ['#EXTM3U x-tvg-url=""', '#PLAYLIST: NM7 - Selected IPTV', '# This playlist is generated automatically from the configured source playlists.']
     for entry in selected:
         out.extend(entry)
     with open("Iptv_selected.m3u", "w", encoding="utf-8", newline="\n") as f:
