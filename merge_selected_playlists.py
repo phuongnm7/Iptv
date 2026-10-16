@@ -3,10 +3,25 @@ import re
 import urllib.request
 
 SOURCES = [
-    ("https://raw.githubusercontent.com/phuongnm7/Iptv/main/SuperOK_playlist.m3u", {"VTV", "VTVcab", "SCTV", "HTV", "Sự Kiện FPT PLAY", "Thiết yếu", "🇸🇬 Mediacorp", "🌟SPORTS VIP🌟"}),
+    ("https://raw.githubusercontent.com/dungntk9/Iptv/main/SuperOK_playlist.m3u", {
+        "VTV", "VTVcab", "HTV", "HTVC", "SCTV", "Quốc Tế", "Thiết yếu",
+        "🌟VTV & VTVCab🌟", "🌟SCTV🌟", "🌟HTV🌟", "🌟Kênh Quốc Tế🌟",
+        "🌟Địa Phương🌟", "🌟Hoạt Hình🌟", "🌟VIP MOVIE🌟",
+        "🌟SPORTS VIP🌟", "🌟SPORTS XTREAM🌟", "⚽ LIVE SPORTS",
+        "UK SPORTS", "UK sport", "Sự Kiện FPT PLAY", "🇸🇬 Mediacorp"
+    }),
     ("https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/vmttv", {"Sự Kiện TV360"}),
-    ("https://tinyurl.com/ttthethao2", {"Giờ Vàng TV", "Gà Vàng 33 TV", "Xôi Lạc Z TV", "Gà Vàng TV"}),
-    ("https://tinyurl.com/phuongnm7", {"VIP | 4K ULTRA HD", "VIP | PREMIER LEAGUE", "VIP | LA LIGA", "VIP | BUNDESLIGA", "VIP | UEFA CHAMPIONS LEAGUE", "┃UK┃ EPL PREMIER LEAGUE TEAMS"}),
+    ("https://raw.githubusercontent.com/dungntk9/Iptv-phuongnm7/main/sports-auto.m3u", {
+        "Giờ Vàng TV", "Gà Vàng 33 TV", "Xôi Lạc Z TV", "Gà Vàng TV",
+        "Vua Sân Cỏ TV", "Khán Đài TV", "Cola TV", "Gà Vàng 24h TV",
+        "S8 TV", "Sao Kê TV", "Bia Ôm TV", "Chuối Chiên TV",
+        "Sút Bóng TV", "Phá Làng TV", "Xôi Gấc TV", "Socolive TV"
+    }),
+    ("https://raw.githubusercontent.com/dungntk9/Iptv-phuongnm7/main/VIP-307.m3u", {
+        "VIP | 4K ULTRA HD", "VIP | PREMIER LEAGUE", "VIP | LA LIGA",
+        "VIP | BUNDESLIGA", "VIP | UEFA CHAMPIONS LEAGUE",
+        "┃UK┃ EPL PREMIER LEAGUE TEAMS"
+    }),
 ]
 
 def fetch(url):
@@ -16,7 +31,7 @@ def fetch(url):
 
 def group_of(extinf):
     m = re.search(r'group-title="([^"]*)"', extinf, flags=re.I)
-    return m.group(1).strip() if m else ""
+    return m.group(1).replace("\\u00a0", " ").replace("\\\\u00a0", " ").strip() if m else ""
 
 def entries(text):
     lines = text.replace("\r\n", "\n").replace("\r", "\n").splitlines()
