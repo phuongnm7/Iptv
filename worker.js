@@ -1,3 +1,4 @@
+// Recovery redeploy: playlist sources verified under dungntk9 repositories.
 const SOURCES = [
   {
     // Live vAppTV-derived catalog maintained by the Dungntk9 repository.
