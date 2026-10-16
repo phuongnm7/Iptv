@@ -1,13 +1,19 @@
 const SOURCES = [
   {
-    url: 'https://raw.githubusercontent.com/dungntk9/Iptv/main/SuperOK_playlist.m3u',
+    // Live vAppTV-derived catalog maintained by the Dungntk9 repository.
+    // This avoids depending on the retired superok-live Vercel project.
+    url: 'https://raw.githubusercontent.com/dungntk9/Iptv-phuongnm7/main/generated/vapptv-live.m3u',
     groups: new Set([
-      'VTV', 'VTVcab', 'SCTV', 'HTV', 'HTVC', 'Quốc Tế', 'Thiết yếu',
-      '🌟VTV & VTVCab🌟', '🌟SCTV🌟', '🌟HTV🌟', '🌟Kênh Quốc Tế🌟',
-      '🌟Địa Phương🌟', '🌟Hoạt Hình🌟', '🌟VIP MOVIE🌟',
-      '🌟SPORTS VIP🌟', '🌟SPORTS XTREAM🌟', '⚽ LIVE SPORTS', 'UK SPORTS', 'UK sport',
-      'Sự Kiện FPT PLAY', '🇸🇬 Mediacorp'
+      'Thể Thao', 'Phim Truyện', 'Thiếu Nhi', 'Âm Nhạc', 'Khám Phá', 'Tin Tức',
+      'VTV', 'VTVCab', 'SCTV', 'HTV - TP.HCM', 'THVL', 'Quốc Tế', 'Sự Kiện',
+      'Địa Phương', 'Miền Trung', 'Miền Nam', 'Miền Bắc',
+      'Radio Miền Trung', 'Radio Miền Bắc', 'Radio VOV', 'Radio VOH', 'Radio Miền Nam'
     ])
+  },
+  {
+    // Keep the FPT event listing without inheriting the older Vercel playlist.
+    url: 'https://raw.githubusercontent.com/dungntk9/Iptv-phuongnm7/main/IPTV_Gop_VMTTV_vAppTV.m3u',
+    groups: new Set(['Sự Kiện FPT PLAY'])
   },
   {
     url: 'https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/vmttv',
