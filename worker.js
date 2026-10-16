@@ -1,6 +1,6 @@
 const SOURCES = [
   {
-    url: 'https://raw.githubusercontent.com/phuongnm7/Iptv/main/SuperOK_playlist.m3u',
+    url: 'https://raw.githubusercontent.com/dungntk9/Iptv/main/SuperOK_playlist.m3u',
     groups: new Set(['VTV', 'VTVcab', 'SCTV', 'HTV', 'Sự Kiện FPT PLAY', 'Thiết yếu', '🇸🇬 Mediacorp', '🌟SPORTS VIP🌟'])
   },
   {
@@ -90,7 +90,7 @@ export default {
 
     const output = [
       '#EXTM3U x-tvg-url=""',
-      '#PLAYLIST: PhuongNM7 - Dynamic Selected IPTV',
+      '#PLAYLIST: NM7 - Dynamic Selected IPTV',
       '# Generated on every request from configured source playlists.'
     ];
     for (const entry of selected) output.push(...entry);
