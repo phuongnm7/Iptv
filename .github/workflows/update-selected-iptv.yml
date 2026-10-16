@@ -23,19 +23,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Download latest SuperOK playlist
+      - name: Validate preserved SuperOK backup
         shell: bash
         run: |
           set -euo pipefail
-          curl --fail --location --silent --show-error \
-            --retry 3 --retry-delay 5 \
-            --header 'Cache-Control: no-cache' \
-            --user-agent 'Mozilla/5.0 IPTV-playlist-updater' \
-            'https://superok-live.vercel.app/SuperOK_playlist.m3u?refresh='$(date +%s) \
-            --output SuperOK_playlist.tmp
-          head -n 1 SuperOK_playlist.tmp | grep -q '^#EXTM3U'
-          test "$(wc -c < SuperOK_playlist.tmp)" -gt 100000
-          mv SuperOK_playlist.tmp SuperOK_playlist.m3u
+          test -s SuperOK_playlist.m3u
+          head -n 1 SuperOK_playlist.m3u | grep -q '^#EXTM3U'
+          test "$(wc -c < SuperOK_playlist.m3u)" -gt 100000
+          echo "Keeping SuperOK_playlist.m3u as a preserved backup; active playlist is built from Dungntk9-owned current sources."
 
       - name: Build selected playlist
         run: python3 merge_selected_playlists.py
@@ -45,6 +40,6 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add SuperOK_playlist.m3u Iptv_selected.m3u
+          git add Iptv_selected.m3u
           git diff --cached --quiet || git commit -m 'Auto-update IPTV playlists'
           git push
