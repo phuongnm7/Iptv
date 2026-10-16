@@ -98,6 +98,20 @@ export default {
       }
     }
 
+    // Keep the main TV groups near the top, matching the established NM7 TV order.
+    const groupOrder = [
+      'VTV', 'VTVCab', 'Thể Thao', 'Quốc Tế', 'SCTV', 'HTV - TP.HCM', 'THVL',
+      'Tin Tức', 'Phim Truyện', 'Thiếu Nhi', 'Khám Phá', 'Âm Nhạc',
+      'Sự Kiện', 'Sự Kiện FPT PLAY', 'Địa Phương', 'Miền Bắc', 'Miền Trung', 'Miền Nam',
+      'Radio Miền Bắc', 'Radio Miền Trung', 'Radio Miền Nam', 'Radio VOV', 'Radio VOH'
+    ];
+    const groupRank = new Map(groupOrder.map((group, index) => [group, index]));
+    selected.sort((a, b) => {
+      const rankA = groupRank.get(groupOf(a[0])) ?? groupOrder.length;
+      const rankB = groupRank.get(groupOf(b[0])) ?? groupOrder.length;
+      return rankA - rankB;
+    });
+
     if (!selected.length) {
       return new Response('No matching channels were found. ' + errors.join(' | '), {
         status: 502,
